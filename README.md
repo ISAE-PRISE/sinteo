@@ -40,15 +40,15 @@ Optimization of tasks interference on Heterogeneous Multi-core Platforms
 root <br />
 ├── README.txt  -->  Important information to consider  <br />
 ├── ccs_workspace/  -->  Bare-metal TI Code Composer Studio workspaces required for profiling and testing <br />
-│*Tabspace*└── task_profiling_sitaraAM5728/  -->  Sitara AM5728 profiling projects for ARM Cortex A15 and DSP C66x <br />
+│         └── task_profiling_sitaraAM5728/  -->  Sitara AM5728 profiling projects for ARM Cortex A15 and DSP C66x <br />
 └── jupyter_notebook/  -->  Jupyter python notebooks code for task/memory mapping <br />
- *Tabspace*├── DDR_SDRAM_cost_function  -->  Tests the DDR3 SDRAM interference cost function <br />
- *Tabspace*├├── task_memory_mapping_optimization_2D.ipynb  --> Two objectives optimization <br />
- *Tabspace*├├── task_memory_mapping_optimization_3D.ipynb  --> Three objectives optimization <br />
- *Tabspace*├├── FUN/  -->  CSV files with the selected cost functions outcome <br />
- *Tabspace*├├── VAR/  -->  CSV files with the near-optimal task-core and core-bank mapping <br />
- *Tabspace*├├── Graphs/  --> Contains the graphs depicting the two objectives optimization solutions <br />
- *Tabspace*├└── 3DGraphs/  --> Contains the graphs depicting the three objectives optimization solutions <br />
+          ├── DDR_SDRAM_cost_function  -->  Tests the DDR3 SDRAM interference cost function <br />
+          ├── task_memory_mapping_optimization_2D.ipynb  --> Two objectives optimization <br />
+          ├── task_memory_mapping_optimization_3D.ipynb  --> Three objectives optimization <br />
+          ├── FUN/  -->  CSV files with the selected cost functions outcome <br />
+          ├── VAR/  -->  CSV files with the near-optimal task-core and core-bank mapping <br />
+          ├── Graphs/  --> Contains the graphs depicting the two objectives optimization solutions <br />
+          └── 3DGraphs/  --> Contains the graphs depicting the three objectives optimization solutions <br />
 
 ## Authors
 
@@ -64,6 +64,7 @@ alfonso.mascarenas-gonzalez@isae-supaero.fr <br />
 jean-baptiste.chaudron@isae-supaero.fr <br />
 youcef.bouchebaba@onera.fr <br />
 frederic.boniol@onera.fr <br />
+jean-loup.bussenot@onera.fr <br />
 
 ## License
 
