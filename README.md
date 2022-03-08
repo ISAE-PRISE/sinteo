@@ -7,13 +7,16 @@ Optimization of tasks interference on Heterogeneous Multi-core Platforms
 ### Description:
 
 "DDR_SDRAM_cost_function": This file is used for analyzing and testing the DDR cost function.
+
 "task_memory_mapping_optimization_2D.ipynb": This file is used for the task/memory mapping optimization.
 					     By default, it minimizes (1) the workload variance and (2) the 
 					     maximum DDR interference. The deadline constraint is applied.
 					     The optimal variables and objectives value are exported.
 					     The resulting graphs are also exported.
+					     
 "task_memory_mapping_optimization_3D.ipynb": Like "task_memory_mapping_optimization_2D.ipynb" but
 					     considering a third objective to optimize.
+					     
 "task_profiling_sitaraAM5728": This workspace contains the projects regarding the methods
 			       for tasks profiling on both cores, ARM Cortex A15 and DSP C66x
 
@@ -37,15 +40,15 @@ Optimization of tasks interference on Heterogeneous Multi-core Platforms
 root <br />
 ├── README.txt  -->  Important information to consider  <br />
 ├── ccs_workspace/  -->  Bare-metal TI Code Composer Studio workspaces required for profiling and testing <br />
-│   └── task_profiling_sitaraAM5728/  -->  Sitara AM5728 profiling projects for ARM Cortex A15 and DSP C66x <br />
+│*Tabspace*└── task_profiling_sitaraAM5728/  -->  Sitara AM5728 profiling projects for ARM Cortex A15 and DSP C66x <br />
 └── jupyter_notebook/  -->  Jupyter python notebooks code for task/memory mapping <br />
-    ├── DDR_SDRAM_cost_function  -->  Tests the DDR3 SDRAM interference cost function <br />
-    ├── task_memory_mapping_optimization_2D.ipynb  --> Two objectives optimization <br />
-    ├── task_memory_mapping_optimization_3D.ipynb  --> Three objectives optimization <br />
-    ├── FUN/  -->  CSV files with the selected cost functions outcome <br />
-    ├── VAR/  -->  CSV files with the near-optimal task-core and core-bank mapping <br />
-    ├── Graphs/  --> Contains the graphs depicting the two objectives optimization solutions <br />
-    └── 3DGraphs/  --> Contains the graphs depicting the three objectives optimization solutions <br />
+ *Tabspace*├── DDR_SDRAM_cost_function  -->  Tests the DDR3 SDRAM interference cost function <br />
+ *Tabspace*├├── task_memory_mapping_optimization_2D.ipynb  --> Two objectives optimization <br />
+ *Tabspace*├├── task_memory_mapping_optimization_3D.ipynb  --> Three objectives optimization <br />
+ *Tabspace*├├── FUN/  -->  CSV files with the selected cost functions outcome <br />
+ *Tabspace*├├── VAR/  -->  CSV files with the near-optimal task-core and core-bank mapping <br />
+ *Tabspace*├├── Graphs/  --> Contains the graphs depicting the two objectives optimization solutions <br />
+ *Tabspace*├└── 3DGraphs/  --> Contains the graphs depicting the three objectives optimization solutions <br />
 
 ## Authors
 
@@ -53,6 +56,7 @@ Alfonso Mascarenas-Gonzalez (ISAE-SUPAERO) <br />
 Jean-Baptiste Chaudron (ISAE-SUPAERO) <br />
 Youcef Bouchebaba (ONERA) <br />
 Frederic Boniol (ONERA) <br />
+Jean-Loup Bussenot (ONERA) <br />
 
 ## Contacts
 
