@@ -36,35 +36,39 @@ Optimization of tasks interference on Heterogeneous Multi-core Platforms
 
 ### Directory Hierarchy:
 
-
-root <br />
-├── README.txt  -->  Important information to consider  <br />
-├── ccs_workspace/  -->  Bare-metal TI Code Composer Studio workspaces required for profiling and testing <br />
-│         └── task_profiling_sitaraAM5728/  -->  Sitara AM5728 profiling projects for ARM Cortex A15 and DSP C66x <br />
-└── jupyter_notebook/  -->  Jupyter python notebooks code for task/memory mapping <br />
-          ├── DDR_SDRAM_cost_function  -->  Tests the DDR3 SDRAM interference cost function <br />
-          ├── task_memory_mapping_optimization_2D.ipynb  --> Two objectives optimization <br />
-          ├── task_memory_mapping_optimization_3D.ipynb  --> Three objectives optimization <br />
-          ├── FUN/  -->  CSV files with the selected cost functions outcome <br />
-          ├── VAR/  -->  CSV files with the near-optimal task-core and core-bank mapping <br />
-          ├── Graphs/  --> Contains the graphs depicting the two objectives optimization solutions <br />
-          └── 3DGraphs/  --> Contains the graphs depicting the three objectives optimization solutions <br />
-
+```
+root
+├── README.txt  -->  Important information to consider 
+├── ccs_workspace/  -->  Bare-metal TI Code Composer Studio workspaces required for profiling and testing 
+│         └── task_profiling_sitaraAM5728/  -->  Sitara AM5728 profiling projects for ARM Cortex A15 and DSP C66x 
+└── jupyter_notebook/  -->  Jupyter python notebooks code for task/memory mapping 
+          ├── DDR_SDRAM_cost_function  -->  Tests the DDR3 SDRAM interference cost function
+          ├── task_memory_mapping_optimization_2D.ipynb  --> Two objectives optimization 
+          ├── task_memory_mapping_optimization_3D.ipynb  --> Three objectives optimization 
+          ├── FUN/  -->  CSV files with the selected cost functions outcome
+          ├── VAR/  -->  CSV files with the near-optimal task-core and core-bank mapping 
+          ├── Graphs/  --> Contains the graphs depicting the two objectives optimization solutions 
+          └── 3DGraphs/  --> Contains the graphs depicting the three objectives optimization solutions
+```
 ## Authors
 
-Alfonso Mascarenas-Gonzalez (ISAE-SUPAERO) <br />
-Jean-Baptiste Chaudron (ISAE-SUPAERO) <br />
-Youcef Bouchebaba (ONERA) <br />
-Frederic Boniol (ONERA) <br />
-Jean-Loup Bussenot (ONERA) <br />
+Alfonso Mascarenas-Gonzalez (ISAE-SUPAERO).
+Jean-Baptiste Chaudron (ISAE-SUPAERO).
+Youcef Bouchebaba (ONERA).
+Frederic Boniol (ONERA).
+Jean-Loup Bussenot (ONERA).
 
 ## Contacts
 
-alfonso.mascarenas-gonzalez@isae-supaero.fr <br />
-jean-baptiste.chaudron@isae-supaero.fr <br />
-youcef.bouchebaba@onera.fr <br />
-frederic.boniol@onera.fr <br />
-jean-loup.bussenot@onera.fr <br />
+alfonso.mascarenas-gonzalez@isae-supaero.fr
+
+jean-baptiste.chaudron@isae-supaero.fr
+
+youcef.bouchebaba@onera.fr
+
+frederic.boniol@onera.fr
+
+jean-loup.bussenot@onera.fr
 
 ## License
 
