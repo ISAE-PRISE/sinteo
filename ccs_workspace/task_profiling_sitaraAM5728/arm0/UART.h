@@ -115,7 +115,7 @@ void enable_FIFO(){
 /* read_UART_IER
  *
  * Description: Reads the register UART_IER which deals with the interrupts enabling
- *              See fields meaning at: https://www.ti.com/lit/ug/spruhz6l/spruhz6l.pdf (Table 24-212. UART_LSR)
+ *              See fields meaning at: https://www.ti.com/lit/ug/spruhz6l/spruhz6l.pdf (Table 24-188. UART_IER)
  *
  * Parameter:   None
  *

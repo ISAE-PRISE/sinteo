@@ -1,0 +1,1 @@
+"./main.o" "./startup_ARMCA15.o" -Wl,-T"../keystoneII.lds" -Wl,--start-group -lc -Wl,--end-group 

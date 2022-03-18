@@ -29,7 +29,7 @@ static inline void disable_L1D_cache(){
                        "MCR    P15, 0, R1, C1, C0, 0 \n\t"
     );
 
-    // Invalidate Data cache to  create general-purpose code. Calculate the
+    // Invalidate Data cache to create general-purpose code. Calculate the
     // cache size first and loop through each set + way
 
     __asm__ __volatile("MOV    R0, #0x0 \n\t"

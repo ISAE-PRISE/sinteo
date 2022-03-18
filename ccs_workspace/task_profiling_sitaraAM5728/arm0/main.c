@@ -17,6 +17,7 @@
  | jean-baptiste.chaudron@isae-supaero.fr
  | youcef.bouchebaba@onera.fr
  | frederic.boniol@onera.fr
+ | jean-loup.bussenot@onera.fr
  *-----------------------------------------------------------------------*/
 
 

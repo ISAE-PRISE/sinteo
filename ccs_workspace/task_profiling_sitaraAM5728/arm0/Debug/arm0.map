@@ -1221,13 +1221,13 @@ OUTPUT(arm0.out elf32-littlearm)
  .debug_ranges  0x00000000       0x60 ./main.o
  .debug_ranges  0x00000060       0x20 ./startup_ARMCA15.o
 
-.debug_line     0x00000000      0x6a1
- .debug_line    0x00000000      0x62f ./main.o
- .debug_line    0x0000062f       0x72 ./startup_ARMCA15.o
+.debug_line     0x00000000      0x6a2
+ .debug_line    0x00000000      0x630 ./main.o
+ .debug_line    0x00000630       0x72 ./startup_ARMCA15.o
 
 .debug_str      0x00000000      0xc41
  .debug_str     0x00000000      0xc1d ./main.o
-                                0xcaa (size before relaxing)
+                                0xca3 (size before relaxing)
  .debug_str     0x00000c1d       0x24 ./startup_ARMCA15.o
                                  0x87 (size before relaxing)
 

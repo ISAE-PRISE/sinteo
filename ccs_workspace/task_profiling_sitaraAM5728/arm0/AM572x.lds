@@ -1,18 +1,12 @@
-/****************************************************************************/
-/*  AM572x.lds                                                              */
-/*  Copyright (c) 2015  Texas Instruments Incorporated                      */
-/*  Author: Rafael de Souza                                                 */
-/*                                                                          */
-/*    Description: This file is a sample linker command file that can be    */
-/*                 used for linking programs built with the GCC compiler    */
-/*                 and running the resulting .out file on an AM572x device. */
-/*                 Use it as a guideline. You will want to                 */
-/*                 change the memory layout to match your specific          */
-/*                 target system.  You may want to change the allocation    */
-/*                 scheme according to the size of your program.            */
-/*                                                                          */
-/****************************************************************************/
-
+ /*--------------------------- AM572x.lds -------------------------------
+ |  File AM572x.lds
+ |
+ |  Description: This file provides the memory layout and allocation 
+ |               scheme for the linking process.
+ |               It is a modification from Rafael de Souza's sample.
+ |
+ *-----------------------------------------------------------------------*/
+ 
 MEMORY
 {
 
@@ -24,7 +18,6 @@ MEMORY
 	DDR1 :       o = 0xC0000000,  l = 0x40000000  /* 1GB external DDR Bank 1 */
 
 }
-
 
 
 /* Linker script to place sections and symbol values. Should be used together

@@ -1,7 +1,7 @@
 ******************************************************************************
                TMS320C6x Linker PC v8.3.5                      
 ******************************************************************************
->> Linked Tue Mar  1 18:30:41 2022
+>> Linked Wed Mar 16 09:39:39 2022
 
 OUTPUT FILE NAME:   <dsp0.out>
 ENTRY POINT SYMBOL: "_c_int00"  address: 94006b00
@@ -19,7 +19,6 @@ MEMORY CONFIGURATION
   CORE1_DDR3            b0000000   10000000  00000000  10000000  RWIX
   CORE2_DDR3            c0000000   10000000  00000000  10000000  RWIX
   CORE3_DDR3            d0000000   10000000  00000000  10000000  RWIX
-  stack                 f0000000   04000000  00000000  04000000  RWIX
 
 
 SEGMENT ALLOCATION MAP

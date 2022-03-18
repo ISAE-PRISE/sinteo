@@ -29,7 +29,7 @@
  * Description: Retrieves the first performance counter value of the selected EMIF
  *
  * Parameter:
- *              - unsigned emif_id: Indicates the EMIF to choose (0 or 1)
+ *              - unsigned emif_id: Indicates the EMIF to use (0 or 1)
  *
  * Returns:     Nothing
  *
@@ -49,7 +49,7 @@ unsigned get_PERF_CNT_1(unsigned emif_id){
  * Description: Retrieves the second performance counter value of the selected EMIF
  *
  * Parameter:
- *              - unsigned emif_id: Indicates the EMIF to choose (0 or 1)
+ *              - unsigned emif_id: Indicates the EMIF to use (0 or 1)
  *
  * Returns:     Nothing
  *
@@ -69,7 +69,7 @@ unsigned get_PERF_CNT_2(unsigned emif_id){
  * Description: Retrieves the dedicated timer counter value of the selected EMIF
  *
  * Parameter:
- *              - unsigned emif_id: Indicates the EMIF to choose (0 or 1)
+ *              - unsigned emif_id: Indicates the EMIF to use (0 or 1)
  *
  * Returns:     Nothing
  *
@@ -88,7 +88,7 @@ unsigned get_PERF_CNT_TIMER(unsigned emif_id){
 
 /* set_PERF_CNT_EVENT
  *
- * Description: Sets the event to study of the first performance counter of the selected EMIF
+ * Description: Sets the event to study for the chosen performance counter of the selected EMIF
  *
  * CNTRn_CFG                    Event Selected for counting      CNTRn_REGION_EN            CNTRn_MCONNID_EN
  * 0x0                          Total SDRAM accesses             NA                         0 - Disable, 1 - Enable
@@ -101,7 +101,7 @@ unsigned get_PERF_CNT_TIMER(unsigned emif_id){
  * Parameter:
  *              - unsigned id: Performance counter to select (0 for first counter, 1 for second counter)
  *              - unsigned event: Event to study
- *              - unsigned emif_id: Indicates the EMIF to choose (0 or 1)
+ *              - unsigned emif_id: Indicates the EMIF to use (0 or 1)
  *
  * Returns:     Nothing
  *
@@ -128,12 +128,12 @@ void set_PERF_CNT_EVENT(unsigned id, unsigned event, unsigned emif_id){
 
 /* enable_CNT_MSTID
  *
- * Description: Enable the use of filters for an EMIF performance counter
+ * Description: Enables the use of filters for an EMIF performance counter
  *
  *
  * Parameter:
  *              - unsigned id: Performance counter to select (0 for first counter, 1 for second counter)
- *              - unsigned emif_id: Indicates the EMIF to choose (0 or 1)
+ *              - unsigned emif_id: Indicates the EMIF to use (0 or 1)
  *
  * Returns:     Nothing
  *
@@ -154,11 +154,9 @@ void enable_CNT_MSTID(unsigned id, unsigned emif_id){
 
 
 
-
-
 /* set_MSTID
  *
- * Description: Sets the event to study of the first performance counter of the selected EMIF
+ * Description: Sets the master to be considered by the chosen performance counter from the selected EMIF
  *
  * Reference: https://www.ti.com/lit/ug/spruhz6l/spruhz6l.pdf (Table 14-10. ConnID Values)
  *
@@ -171,7 +169,7 @@ void enable_CNT_MSTID(unsigned id, unsigned emif_id){
  * Parameter:
  *              - unsigned id: Performance counter to select (0 for first counter, 1 for second counter)
  *              - unsigned master_id: Id of the master to focus on
- *              - unsigned emif_id: Indicates the EMIF to choose (0 or 1)
+ *              - unsigned emif_id: Indicates the EMIF to use (0 or 1)
  *
  * Returns:     Nothing
  *
@@ -193,14 +191,14 @@ void set_MSTID(unsigned id, unsigned master_id, unsigned emif_id){
 
 /* set_DDR3A_SDCFG_IBANK
  *
- * Description: Sets the event to study of the first performance counter of the selected EMIF
+ * Description: Sets the number of SDRAM banks to use by the controller of the selected EMIF
  *
  * Caveats: It is better to use GEL configuration file to set this feature to avoid issues
  *
  *
  * Parameter:
  *              - unsigned banks_number: Value for setting the number of banks (0 = 1 bank, 1 = 2 banks, 2 = 4 banks, 3 = 8 banks)
- *              - unsigned emif_id: Indicates the EMIF to choose (0 or 1)
+ *              - unsigned emif_id: Indicates the EMIF to use (0 or 1)
  *
  * Returns:     Nothing
  *
@@ -224,7 +222,7 @@ void set_DDR3A_SDCFG_IBANK(int banks_number, unsigned emif_id){
  *
  *
  * Parameter:
- *              - unsigned emif_id: Indicates the EMIF to choose (0 or 1)
+ *              - unsigned emif_id: Indicates the EMIF to use (0 or 1)
  *
  * Returns:     The number of banks used
  *
@@ -237,16 +235,16 @@ unsigned get_DDR3A_SDCFG_IBANK(unsigned emif_id){
     else if (emif_id == 1)
         sdcfg = DDR3A_EMIF2_CONFIGURATION + SDCFG_OFFSET;
 
-    return *sdcfg & 0x060; // Clear IBANK bits
+    return *sdcfg & 0x060; // Clear all bits but IBANK bits
 }
 
 /* get_DDR3A_SDCFG_PAGESIZE
  *
- * Description: Retrieves the number of banks in use by an EMIF
+ * Description: Retrieves the page size used by an EMIF
  *
  *
  * Parameter:
- *              - unsigned emif_id: Indicates the EMIF to choose (0 or 1)
+ *              - unsigned emif_id: Indicates the EMIF to use (0 or 1)
  *
  * Returns:     The number of banks used
  *
@@ -259,7 +257,7 @@ unsigned get_DDR3A_SDCFG_PAGESIZE(unsigned emif_id){
     else if (emif_id == 1)
         sdcfg = DDR3A_EMIF2_CONFIGURATION + SDCFG_OFFSET;
 
-    return *sdcfg & 0x003; // Clear IBANK bits
+    return *sdcfg & 0x003; // Clear all bits but PAGESIZE bits
 }
 
 /* set_DDR3A_SDCFG_EBANK
@@ -270,7 +268,7 @@ unsigned get_DDR3A_SDCFG_PAGESIZE(unsigned emif_id){
  *
  * Parameter:
  *              - unsigned chips_number: Value for setting the number of chips (0 = 1 chip, 1 = 2 chips)
- *              - unsigned emif_id: Indicates the EMIF to choose (0 or 1)
+ *              - unsigned emif_id: Indicates the EMIF to use (0 or 1)
  *
  * Returns:     Nothing
  *
@@ -294,7 +292,7 @@ void set_DDR3A_SDCFG_EBANK(int chips_number, unsigned emif_id){
  *
  *
  * Parameter:
- *              - unsigned emif_id: Indicates the EMIF to choose (0 or 1)
+ *              - unsigned emif_id: Indicates the EMIF to use (0 or 1)
  *
  * Returns:     The number of chips used
  *
@@ -307,7 +305,7 @@ unsigned get_DDR3A_SDCFG_EBANK(unsigned emif_id){
     else if (emif_id == 1)
         sdcfg = DDR3A_EMIF2_CONFIGURATION + SDCFG_OFFSET;
 
-    return *sdcfg & 0x08; // Clear IBANK bits
+    return *sdcfg & 0x08; // Clear all bits but EBANK bits
 }
 
 
@@ -318,7 +316,7 @@ unsigned get_DDR3A_SDCFG_EBANK(unsigned emif_id){
  *
  * Parameter:
  *              - unsigned count: Priority raise old counter (max value is 0xFF)
- *              - unsigned emif_id: Indicates the EMIF to choose (0 or 1)
+ *              - unsigned emif_id: Indicates the EMIF to use (0 or 1)
  *
  * Returns:     Nothing
  *
@@ -341,7 +339,7 @@ void set_DDR3A_PR_OLD_COUNT(int count, unsigned emif_id){
  *
  * Parameter:
  *              - unsigned size: Read batch size. The set value is minus 1 the required number. Max size is 0x1F.
- *              - unsigned emif_id: Indicates the EMIF to choose (0 or 1)
+ *              - unsigned emif_id: Indicates the EMIF to use (0 or 1)
  *
  * Returns:     Nothing
  *
@@ -364,12 +362,12 @@ void set_DDR3A_READ_EXECUTION_THRESHOLD(int size, unsigned emif_id){
  *
  * Parameter:
  *              - unsigned size: Write batch size. The set value is minus 1 the required number. Max size is 0x1F.
- *              - unsigned emif_id: Indicates the EMIF to choose (0 or 1)
+ *              - unsigned emif_id: Indicates the EMIF to use (0 or 1)
  *
  * Returns:     Nothing
  *
  * */
-void set_DDR3A_WRITE_EXECUTION_THRESHOLD(int number, unsigned emif_id){
+void set_DDR3A_WRITE_EXECUTION_THRESHOLD(int size, unsigned emif_id){
     unsigned int* rw_thresh = NULL;
 
     if (emif_id == 0)
@@ -378,7 +376,7 @@ void set_DDR3A_WRITE_EXECUTION_THRESHOLD(int number, unsigned emif_id){
         rw_thresh = DDR3A_EMIF2_CONFIGURATION + RWTHRESH_OFFSET;
 
     *rw_thresh &= 0xFFFFD0FF; // Clear WR_THRESH bits
-    *rw_thresh |= (number<<8); // Set WR_THRESH bits
+    *rw_thresh |= (size<<8); // Set WR_THRESH bits
 }
 
 #endif /* DDR3MEMORYCONTROLLER_H_ */

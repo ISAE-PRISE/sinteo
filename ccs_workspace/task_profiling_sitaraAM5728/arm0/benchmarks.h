@@ -1,7 +1,7 @@
 /*--------------------------- benchmarks.h -------------------------------------
  |  File benchmarks.h
  |
- |  Description:  Provides function able to stress a specific element
+ |  Description:  Provides functions able to stress a specific element
  |                of the multicore platform, e.g., DDR memory row,
  |                unified/shared cache.
  |
