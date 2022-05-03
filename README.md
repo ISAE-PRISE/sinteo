@@ -23,11 +23,16 @@ Optimization of tasks interference on Heterogeneous Multi-core Platforms
 			     for the Keystone II TCI6636K2H SoC.
 
 "xen_cobalt_task_profiling_sitaraAM5728/": This workspace contains a project regarding the tasks 
-				   	  profiling on the ARM Cortex A15 on Xenomai RTOS using the Cobalt POISIX 
+				   	  profiling on the ARM Cortex A15 on Xenomai RTOS using the Cobalt POSIX 
 				          implementation for Sitara AM5728 SoC (SoC used by BeagleBoard X15).
 				          Only User programing is carried out, hence, performance counters
 				          on ARM are not accessed.					     
-
+"xen_module_cobalt_task_profiling_sitaraAM5728/": This workspace contains a project regarding the tasks 
+				   	  profiling on the ARM Cortex A15 on Xenomai RTOS using the Cobalt POSIX 
+				          implementation for Sitara AM5728 SoC (SoC used by BeagleBoard X15).
+				          Unlike xen_cobalt_task_profiling_sitaraAM5728/ workspace, the performance 
+				          counters on the ARM cores are used. This is achieved through a Kernel module which
+						  enables the User mode access to the Performance Monitors Units. 
 "xen_alchemy_task_profiling_sitaraAM5728/": This workspace contains a project regarding the tasks 
 				   	  profiling on the ARM Cortex A15 on Xenomai RTOS using the Alchemy API 
 				          for Sitara AM5728 SoC (SoC used by BeagleBoard X15).
@@ -37,20 +42,21 @@ Optimization of tasks interference on Heterogeneous Multi-core Platforms
 
 ### Software Requirements:
 
-1. Jupyter Notebook is required for opening the two Ipynb files entitled 
-   "DDR_SDRAM_cost_function" and "task_memory_mapping_optimization_2D.ipynb"
+1. Jupyter Notebook is required for opening the three Ipynb files 
+   inside the workspace "jupyter_notebook" 
    (tested with Jupyter version 6.3.0 and python 3.8.8).
    
 2. jMetalPy libraries are required to run "task_memory_mapping_optimization_2D.ipynb"
+   and "task_memory_mapping_optimization_3D.ipynb"
    See how to install at https://github.com/jMetal/jMetalPy
    (tested with version 1.5.5).
    
 3. Code Composer Studio (CCS TUDIO) IDE by Texas Instruments is required for 
-   opening the projects inside the workspace "workspace_CCS_task_profiling_sitaraAM5728"
-   (tested with CCS version 9.3.0). Download the Chip Support Libraries (CSL) during installation.
+   opening the projects inside the workspace "ccs_workspace" (tested with CCS version 9.3.0).
+   Download the Chip Support Libraries (CSL) during installation.
    
 4. Xenomai 3.0 required for executing the projects inside the workspace "xenomai_workspace" in real-time
-   (tested with Xenomai cobalt v3.0.5 and Debian GNU/Linux 8 (jessie)).
+   (tested with Xenomai cobalt v3.0.5 and Debian GNU/Linux 8 (jessie) with Linux kernel 4.4.87+).
 
 ### Directory Hierarchy:
 
@@ -60,16 +66,17 @@ root
 │
 ├── ccs_workspace/  -->  Bare-metal TI Code Composer Studio workspaces required for profiling and testing  
 │   ├── task_profiling_sitaraAM5728/  -->  Sitara AM5728 profiling projects for ARM Cortex A15 and DSP C66x   
-│   └── task_profiling_keystoneII/  --> Keystone II TCI6636K2H profiling projects for ARM Cortex A15 and DSP C66x   
+│   └── task_profiling_keystoneII/  -->  Keystone II TCI6636K2H profiling projects for ARM Cortex A15 and DSP C66x   
 │
 ├── xenomai_workspace/  -->  Code workspaces created for profiling and testing on Xenomai 3 
-│   ├── xen_cobalt_task_profiling_sitaraAM5728/ -->  Sitara AM5728 profiling project for ARM Cortex A15 using Cobalt POSIX implementation  
-│   └── xen_alchemy_task_profiling_sitaraAM5728/ -->  Sitara AM5728 profiling project for ARM Cortex A15 using the Alchemy API   
+│   ├── xen_cobalt_task_profiling_sitaraAM5728/  -->  Sitara AM5728 profiling project for ARM Cortex A15 using Cobalt POSIX implementation  
+│   ├── xen_module_cobalt_task_profiling_sitaraAM5728/  -->  Sitara AM5728 profiling project for ARM Cortex A15 using Cobalt POSIX implementation using PMCs
+│   └── xen_alchemy_task_profiling_sitaraAM5728/  -->  Sitara AM5728 profiling project for ARM Cortex A15 using the Alchemy API   
 │
 └── jupyter_notebook/  -->  Jupyter python notebooks code for task/memory mapping
     ├── DDR_SDRAM_cost_function  -->  Tests the DDR3 SDRAM interference cost function
-    ├── task_memory_mapping_optimization_2D.ipynb  --> Two objectives optimization
-    ├── task_memory_mapping_optimization_3D.ipynb  --> Three objectives optimization
+    ├── task_memory_mapping_optimization_2D.ipynb  -->  Two objectives optimization
+    ├── task_memory_mapping_optimization_3D.ipynb  -->  Three objectives optimization
     ├── FUN/  -->  CSV files with the selected cost functions outcome
     ├── VAR/  -->  CSV files with the near-optimal task-core and core-bank mapping
     ├── Graphs/  --> Contains the graphs depicting the two objectives optimization solutions

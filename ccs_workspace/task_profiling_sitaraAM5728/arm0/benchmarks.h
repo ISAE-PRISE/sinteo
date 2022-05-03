@@ -1,11 +1,11 @@
 /*--------------------------- benchmarks.h -------------------------------------
  |  File benchmarks.h
  |
- |  Description:  Provides functions able to stress a specific element
+ |  Description:  Provides function able to stress a specific element
  |                of the multicore platform, e.g., DDR memory row,
  |                unified/shared cache.
  |
- |  Version: 1.0V
+ |  Version: 1.1V
  *-----------------------------------------------------------------------*/
 
 
@@ -324,66 +324,66 @@ void cpu_pointer_chasing_microbenchmark(unsigned iter_numb, unsigned stride, uns
 
     for(i=0; i<array_size; i+=stride){
         if(i<array_size-stride)
-            M[i] = (int*)&M[i+stride];
+            M[i] = (unsigned)&M[i+stride];
         else
-            M[i] = (int*)M;
+            M[i] = (unsigned)M;
     }
 
     for (i = 0; i < iter_numb; i++) {
-        b=*a; a=*b;
-        b=*a; a=*b;
-        b=*a; a=*b;
-        b=*a; a=*b;
-        b=*a; a=*b;
-        b=*a; a=*b;
-        b=*a; a=*b;
-        b=*a; a=*b;
-        b=*a; a=*b;
-        b=*a; a=*b;
-        b=*a; a=*b;
-        b=*a; a=*b;
-        b=*a; a=*b;
-        b=*a; a=*b;
-        b=*a; a=*b;
-        b=*a; a=*b;
-        b=*a; a=*b;
-        b=*a; a=*b;
-        b=*a; a=*b;
-        b=*a; a=*b;
-        b=*a; a=*b;
-        b=*a; a=*b;
-        b=*a; a=*b;
-        b=*a; a=*b;
-        b=*a; a=*b;
-        b=*a; a=*b;
-        b=*a; a=*b;
-        b=*a; a=*b;
-        b=*a; a=*b;
-        b=*a; a=*b;
-        b=*a; a=*b;
-        b=*a; a=*b;
-        b=*a; a=*b;
-        b=*a; a=*b;
-        b=*a; a=*b;
-        b=*a; a=*b;
-        b=*a; a=*b;
-        b=*a; a=*b;
-        b=*a; a=*b;
-        b=*a; a=*b;
-        b=*a; a=*b;
-        b=*a; a=*b;
-        b=*a; a=*b;
-        b=*a; a=*b;
-        b=*a; a=*b;
-        b=*a; a=*b;
-        b=*a; a=*b;
-        b=*a; a=*b;
-        b=*a; a=*b;
-        b=*a; a=*b;
-        b=*a; a=*b;
-        b=*a; a=*b;
-        b=*a; a=*b;
-        b=*a; a=*b;
+        b=(unsigned*)*a; a= (unsigned*)*b;
+        b=(unsigned*)*a; a= (unsigned*)*b;
+        b=(unsigned*)*a; a= (unsigned*)*b;
+        b=(unsigned*)*a; a= (unsigned*)*b;
+        b=(unsigned*)*a; a= (unsigned*)*b;
+        b=(unsigned*)*a; a= (unsigned*)*b;
+        b=(unsigned*)*a; a= (unsigned*)*b;
+        b=(unsigned*)*a; a= (unsigned*)*b;
+        b=(unsigned*)*a; a= (unsigned*)*b;
+        b=(unsigned*)*a; a= (unsigned*)*b;
+        b=(unsigned*)*a; a= (unsigned*)*b;
+        b=(unsigned*)*a; a= (unsigned*)*b;
+        b=(unsigned*)*a; a= (unsigned*)*b;
+        b=(unsigned*)*a; a= (unsigned*)*b;
+        b=(unsigned*)*a; a= (unsigned*)*b;
+        b=(unsigned*)*a; a= (unsigned*)*b;
+        b=(unsigned*)*a; a= (unsigned*)*b;
+        b=(unsigned*)*a; a= (unsigned*)*b;
+        b=(unsigned*)*a; a= (unsigned*)*b;
+        b=(unsigned*)*a; a= (unsigned*)*b;
+        b=(unsigned*)*a; a= (unsigned*)*b;
+        b=(unsigned*)*a; a= (unsigned*)*b;
+        b=(unsigned*)*a; a= (unsigned*)*b;
+        b=(unsigned*)*a; a= (unsigned*)*b;
+        b=(unsigned*)*a; a= (unsigned*)*b;
+        b=(unsigned*)*a; a= (unsigned*)*b;
+        b=(unsigned*)*a; a= (unsigned*)*b;
+        b=(unsigned*)*a; a= (unsigned*)*b;
+        b=(unsigned*)*a; a= (unsigned*)*b;
+        b=(unsigned*)*a; a= (unsigned*)*b;
+        b=(unsigned*)*a; a= (unsigned*)*b;
+        b=(unsigned*)*a; a= (unsigned*)*b;
+        b=(unsigned*)*a; a= (unsigned*)*b;
+        b=(unsigned*)*a; a= (unsigned*)*b;
+        b=(unsigned*)*a; a= (unsigned*)*b;
+        b=(unsigned*)*a; a= (unsigned*)*b;
+        b=(unsigned*)*a; a= (unsigned*)*b;
+        b=(unsigned*)*a; a= (unsigned*)*b;
+        b=(unsigned*)*a; a= (unsigned*)*b;
+        b=(unsigned*)*a; a= (unsigned*)*b;
+        b=(unsigned*)*a; a= (unsigned*)*b;
+        b=(unsigned*)*a; a= (unsigned*)*b;
+        b=(unsigned*)*a; a= (unsigned*)*b;
+        b=(unsigned*)*a; a= (unsigned*)*b;
+        b=(unsigned*)*a; a= (unsigned*)*b;
+        b=(unsigned*)*a; a= (unsigned*)*b;
+        b=(unsigned*)*a; a= (unsigned*)*b;
+        b=(unsigned*)*a; a= (unsigned*)*b;
+        b=(unsigned*)*a; a= (unsigned*)*b;
+        b=(unsigned*)*a; a= (unsigned*)*b;
+        b=(unsigned*)*a; a= (unsigned*)*b;
+        b=(unsigned*)*a; a= (unsigned*)*b;
+        b=(unsigned*)*a; a= (unsigned*)*b;
+        b=(unsigned*)*a; a= (unsigned*)*b;
     }
 
 }
@@ -396,18 +396,18 @@ void cpu_pointer_chasing_microbenchmark(unsigned iter_numb, unsigned stride, uns
  * Parameter:
  *              - unsigned base_address: Address of the DDR memory bank and row to stress
  *
- * Returns:     Nothing
+ * Returns:     Dummy array addition
  *
  * */
-void bank_stress_benchmark(unsigned base_address){
+unsigned bank_stress_benchmark(unsigned base_address){
 
-    unsigned* temp = base_address;
+    unsigned* temp = (unsigned*)base_address;
     *temp = 0;
-    unsigned* i = base_address + sizeof(unsigned);
-    unsigned* size = base_address + 2*sizeof(unsigned);
+    unsigned* i = (unsigned*)base_address + sizeof(unsigned);
+    unsigned* size = (unsigned*)base_address + 2*sizeof(unsigned);
     *size = 128; // *size < 256
-    unsigned* in0 = base_address + 3*sizeof(unsigned);
-    unsigned* in1 = base_address + 3*sizeof(unsigned) + (*size)*sizeof(unsigned);
+    unsigned* in0 = (unsigned*)base_address + 3*sizeof(unsigned);
+    unsigned* in1 = (unsigned*)base_address + 3*sizeof(unsigned) + (*size)*sizeof(unsigned);
 
 
   for ((*i)=0; (*i) < (*size); (*i)++)
@@ -423,10 +423,7 @@ void bank_stress_benchmark(unsigned base_address){
       (*temp) +=in0[(*i)]+in1[(*i)];
 
 
-if(0)
-    printf("%u", (*temp));
-
-
+  return *temp;
 }
 
 
@@ -437,12 +434,13 @@ if(0)
  * Parameter:
  *              - unsigned size: Indicates the size of the matrices. Final memory usage is (number of matrices (2) * unsigned size (4) * size*size)
  *
- * Returns:     Nothing
+ * Returns:     A dummy sum
  *
  * */
-void matrix_stress1_task(unsigned size)  {
+unsigned matrix_stress1_task(unsigned size)  {
    volatile int in0[size][size];
    volatile int in1[size][size];
+   volatile int sum = 0;
 
    for (unsigned i=0; i < size; i++)
        for (unsigned j=0; j < size; j++)
@@ -451,6 +449,12 @@ void matrix_stress1_task(unsigned size)  {
    for (unsigned i=0; i < size; i++)
        for (unsigned j=0; j < size; j++)
            in1[i][j]=in0[i-1][j]+in0[i][j-1]+in0[i][j]+in0[i][j+1]+in0[i+1][j];
+
+   for (unsigned i=0; i < size; i++)
+       for (unsigned j=0; j < size; j++)
+           sum+=in1[i][j];
+
+   return sum;
 }
 
 /* matrix_stress2_task
@@ -460,12 +464,13 @@ void matrix_stress1_task(unsigned size)  {
  * Parameter:
  *              - unsigned size: Indicates the size of the matrices. Final memory usage is (number of matrices (2) * unsigned size (4) * size*size)
  *
- * Returns:     Nothing
+ * Returns:     A dummy sum
  *
  * */
-void matrix_stress2_task(unsigned size)  {
+unsigned matrix_stress2_task(unsigned size)  {
    volatile int in0[size][size];
    volatile int in1[size][size];
+   volatile int sum = 0;
 
    for (unsigned i=0; i < size; i++)
        for (unsigned j=0; j < size; j++)
@@ -475,6 +480,11 @@ void matrix_stress2_task(unsigned size)  {
        for (unsigned j=0; j < size; j++)
            in1[i][j]=in0[j][i-1]+in0[j-1][i]+in0[j][i]+in0[j+1][i]+in0[j][i+1];
 
+   for (unsigned i=0; i < size; i++)
+       for (unsigned j=0; j < size; j++)
+           sum+=in1[i][j];
+
+   return sum;
 }
 
 

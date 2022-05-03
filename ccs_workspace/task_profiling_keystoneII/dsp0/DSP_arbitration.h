@@ -35,7 +35,7 @@
  *
  * */
 unsigned read_CPUARBE(){
-    unsigned* address = CPUARB_BASE_ADDRESS;
+    unsigned* address = (unsigned*)CPUARB_BASE_ADDRESS;
     return *address;
 }
 
@@ -53,7 +53,7 @@ unsigned read_CPUARBE(){
  *
  * */
 void write_CPUARBE(unsigned value){
-    unsigned* address = CPUARB_BASE_ADDRESS;
+    unsigned* address = (unsigned*)CPUARB_BASE_ADDRESS;
     *address = value & CPUARBE_MASK;
 }
 
@@ -71,7 +71,7 @@ void write_CPUARBE(unsigned value){
  * */
 
 unsigned read_CPUARBD(){
-    unsigned* address = CPUARBD_BASE_ADDRESS;
+    unsigned* address = (unsigned*)CPUARBD_BASE_ADDRESS;
     return *address;
 }
 
@@ -88,8 +88,8 @@ unsigned read_CPUARBD(){
  * Returns:     Nothing
  *
  * */
-void write_CPUARBD(int value){
-    unsigned* address = CPUARBD_BASE_ADDRESS;
+void write_CPUARBD(unsigned value){
+    unsigned* address = (unsigned*)CPUARBD_BASE_ADDRESS;
     *address = value & CPUARBE_MASK;
 }
 
@@ -106,7 +106,7 @@ void write_CPUARBD(int value){
  *
  * */
 unsigned read_CPUARBU(){
-    unsigned* address = CPUARBU_BASE_ADDRESS;
+    unsigned* address = (unsigned*)CPUARBU_BASE_ADDRESS;
     return *address;
 }
 
@@ -123,8 +123,8 @@ unsigned read_CPUARBU(){
  * Returns:     Nothing
  *
  * */
-void write_CPUARBU(int value){
-    unsigned* address = CPUARBU_BASE_ADDRESS;
+void write_CPUARBU(unsigned value){
+    unsigned* address = (unsigned*)CPUARBU_BASE_ADDRESS;
     *address = value & CPUARBE_MASK;
 }
 
@@ -142,7 +142,7 @@ void write_CPUARBU(int value){
  *
  * */
 unsigned read_MDMAARBU(){
-    unsigned* address = MDMAARBU_BASE_ADDRESS;
+    unsigned* address = (unsigned*)MDMAARBU_BASE_ADDRESS;
     return *address;
 }
 
@@ -159,8 +159,8 @@ unsigned read_MDMAARBU(){
  * Returns:     Nothing
  *
  * */
-void write_MDMAARBU(int value){
-    unsigned* address = MDMAARBU_BASE_ADDRESS;
+void write_MDMAARBU(unsigned value){
+    unsigned* address = (unsigned*)MDMAARBU_BASE_ADDRESS;
     *address = value & MDMAARBU_MASK;
 }
 
@@ -178,7 +178,7 @@ void write_MDMAARBU(int value){
  *
  * */
 unsigned read_SDMAARBD(){
-    unsigned* address = SDMAARBD_BASE_ADDRESS;
+    unsigned* address = (unsigned*)SDMAARBD_BASE_ADDRESS;
     return *address;
 }
 
@@ -194,8 +194,8 @@ unsigned read_SDMAARBD(){
  * Returns:     Nothing
  *
  * */
-void write_SDMAARBD(int value){
-    unsigned* address = SDMAARBD_BASE_ADDRESS;
+void write_SDMAARBD(unsigned value){
+    unsigned* address = (unsigned*)SDMAARBD_BASE_ADDRESS;
     *address = value & SDMAARB_MASK;
 }
 
@@ -211,7 +211,7 @@ void write_SDMAARBD(int value){
  *
  * */
 unsigned read_SDMAARBU(){
-    unsigned* address = SDMAARBU_BASE_ADDRESS;
+    unsigned* address = (unsigned*)SDMAARBU_BASE_ADDRESS;
     return *address;
 }
 
@@ -228,8 +228,8 @@ unsigned read_SDMAARBU(){
  * Returns:     Nothing
  *
  * */
-void write_SDMAARBU(int value){
-    unsigned* address = SDMAARBU_BASE_ADDRESS;
+void write_SDMAARBU(unsigned value){
+    unsigned* address = (unsigned*)SDMAARBU_BASE_ADDRESS;
     *address = value & SDMAARB_MASK;
 }
 
@@ -246,7 +246,7 @@ void write_SDMAARBU(int value){
  *
  * */
 unsigned read_SDMAARBE(){
-    unsigned* address = SDMAARBE_BASE_ADDRESS;
+    unsigned* address = (unsigned*)SDMAARBE_BASE_ADDRESS;
     return *address;
 }
 
@@ -262,8 +262,8 @@ unsigned read_SDMAARBE(){
  * Returns:     Nothing
  *
  * */
-void write_SDMAARBE(int value){
-    int* address = SDMAARBE_BASE_ADDRESS;
+void write_SDMAARBE(unsigned value){
+    unsigned* address = (unsigned*)SDMAARBE_BASE_ADDRESS;
     *address = value & SDMAARB_MASK;
 }
 
@@ -280,7 +280,7 @@ void write_SDMAARBE(int value){
  *
  * */
 unsigned read_MDMAARBX(){
-    unsigned* address = MDMAARBX_BASE_ADDRESS;
+    unsigned* address = (unsigned*)MDMAARBX_BASE_ADDRESS;
     return *address;
 }
 
@@ -296,8 +296,8 @@ unsigned read_MDMAARBX(){
  * Returns:     Nothing
  *
  * */
-void write_MDMAARBX(int value){
-    unsigned* address = MDMAARBX_BASE_ADDRESS;
+void write_MDMAARBX(unsigned value){
+    unsigned* address = (unsigned*)MDMAARBX_BASE_ADDRESS;
     *address = value & SDMAARB_MASK;
 }
 

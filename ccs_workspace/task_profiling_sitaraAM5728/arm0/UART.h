@@ -37,7 +37,7 @@ int read_UART_LSR();
 void clear_tx_FIFO();
 void enable_FIFO();
 int read_UART_IER();
-void write_UART_IER(int value);
+void write_UART_IER(unsigned value);
 
 
 /* write_UART_THR
@@ -51,7 +51,7 @@ void write_UART_IER(int value);
  *
  * */
 void write_UART_THR(char str[]){
-    unsigned* address = UART_BASE;
+    unsigned* address = (unsigned*)UART_BASE;
     unsigned i = 0;
     unsigned value = 0;
 
@@ -59,7 +59,7 @@ void write_UART_THR(char str[]){
     while(i <= strlen(str)){
         // Transmit hold register(TX FIFO) is empty. The transmission is not necessarily complete.
         if((read_UART_LSR()&TX_FIFO_E_MASK) == 0x20){
-            value = (int)str[i];
+            value = (unsigned)str[i];
             *address = value & UART_THR_MASK;
             i++;
         }
@@ -78,7 +78,7 @@ void write_UART_THR(char str[]){
  *
  * */
 int read_UART_LSR(){
-    unsigned* UART_LSR = UART_BASE + 0x14;
+    unsigned* UART_LSR = (unsigned*)(UART_BASE + 0x14);
     return *UART_LSR;
 }
 
@@ -93,7 +93,7 @@ int read_UART_LSR(){
  *
  * */
 void clear_tx_FIFO(){
-    unsigned* UART_FCR = UART_BASE + 0x08;
+    unsigned* UART_FCR = (unsigned*)(UART_BASE + 0x08);
     *UART_FCR = *UART_FCR |(1<<2);
 }
 
@@ -108,7 +108,7 @@ void clear_tx_FIFO(){
  *
  * */
 void enable_FIFO(){
-    unsigned* UART_FCR = UART_BASE + 0x08;
+    unsigned* UART_FCR = (unsigned*)(UART_BASE + 0x08);
     *UART_FCR = *UART_FCR |(1<<0);
 }
 
@@ -123,21 +123,25 @@ void enable_FIFO(){
  *
  * */
 int read_UART_IER(){
-    unsigned* address = UART_BASE + 0x4;
+    unsigned* address = (unsigned*)(UART_BASE + 0x4);
     return *address;
 }
 
 /* write_UART_IER
  *
  * Description: Writes the register UART_IER which deals with the interrupts enabling
+ *              See meaning of fields at: https://www.ti.com/lit/ug/sprugp1/sprugp1.pdf?ts=1646758757775 (Table 3-4 Interrupt Enable Register (IER) Field Descriptions)
  *
- * Parameter:   None
+ *
+ * Parameter:
+ *            - unsigned value: Value of the UART_IER register
+ *
  *
  * Returns:     Nothing
  *
  * */
-void write_UART_IER(int value){
-    unsigned* address = UART_BASE + 0x4;
+void write_UART_IER(unsigned value){
+    unsigned* address = (unsigned*)(UART_BASE + 0x4);
     *address = value;
 }
 

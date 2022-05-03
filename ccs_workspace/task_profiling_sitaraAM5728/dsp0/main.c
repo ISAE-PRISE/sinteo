@@ -196,8 +196,9 @@ int main(void)
     // Intended especially for data caches implementation but also useful for the without data caches implementation
     write_UART_THR("Pointer chasing cache stress: Execution time (cycles) \n\r");
 
-    unsigned const VECTOR_SIZE = 8*1024*1024;
-    unsigned const STRIDE_SIZE = 16;
+    #define VECTOR_SIZE 8*1024*1024
+    #define STRIDE_SIZE 16
+
     unsigned pointer_chasing_vector[VECTOR_SIZE]; // Pass as an argument of the function "cpu_pointer_chasing_microbenchmark" to avoid the use of __vla_alloc
 
     for(i=0; i < MAX_ITERATIONS; i++){
@@ -226,7 +227,8 @@ int main(void)
     // Intended especially for data caches implementation but also useful for the without data caches implementation
     write_UART_THR("System stress matrix: Execution time (cycles)\n\r");
 
-    unsigned const MATRIX_SIZE = 512;
+    #define MATRIX_SIZE 512
+
     int in0[MATRIX_SIZE][MATRIX_SIZE]; // Pass as an argument of the function "matrix_stress2_task" to avoid the use of __vla_alloc
     int in1[MATRIX_SIZE][MATRIX_SIZE]; // Pass as an argument of the function "matrix_stress2_task" to avoid the use of __vla_alloc
 
@@ -255,7 +257,6 @@ int main(void)
 
     while(1);
 
-    return 0;
 }
 
 

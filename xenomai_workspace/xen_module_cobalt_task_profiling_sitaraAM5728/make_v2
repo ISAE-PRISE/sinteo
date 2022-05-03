@@ -1,0 +1,11 @@
+CC = gcc
+SKIN = native
+CFLAGS = -std=gnu99 $(shell xeno-config --skin=$(SKIN) --cflags)
+LDFLAGS = $(shell xeno-config --skin=$(SKIN) --ldflags)
+
+EXE = main
+
+all: main.c arm_pmu_management.c emif_management.c
+	$(CC) $^ $(CFLAGS) $(LDFLAGS) -o $(EXE)
+clean:
+	rm $(EXE)

@@ -324,21 +324,7 @@ static inline void clear_overflows()  {
 	#define counter_id_4 0x4
 	#define counter_id_5 0x5
 
-	 /* *
-	 * https://developer.arm.com/docs/ddi0438/c/performance-monitor-unit/events
-	 *
-	 * Event Name/Number
-	 *
-	 * Cycle = 0x11
-	 * Bus Access = 0x19
-	 * Level 1 data cache refill = 0x03
-	 * Level 1 data cache access = 0x04
-	 *
-	 * Miss-predicted branch = 0x10
-	 * Level 2 data cache access = 0x16
-	 * Level 2 data cache refill = 0x17
-	 * */
-/*	 
+    // Event identification
 	#define event_id_0   0x11
 	#define event_id_1   0x04
 	#define event_id_2   0x03

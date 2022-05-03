@@ -1,0 +1,2 @@
+/usr/xenomai/Projects/module_task_profiling_sitaraAM5728/module/user_enable_pmu.ko
+/usr/xenomai/Projects/module_task_profiling_sitaraAM5728/module/user_enable_pmu.o

@@ -33,7 +33,7 @@
 
 /* ----------------------- LOCAL FUNCTIONS --------------------------- */
 void ARM_disable_caches();
-void ARM_init();
+void ARM_init(unsigned tlb1_pos);
 void counters_init();
 void critical_task_start_eval();
 void critical_task_end_eval();
@@ -48,7 +48,7 @@ void configure_AXI(unsigned priority);
 // Iteration number
 #define  MAX_ITERATIONS 1000
 // ARM configuration mode. 0 = only L1 instruction cache, 1 = all caches plus others (MMU, branch predictor...)
-#define ARM_INIT_CONFIGURATION   1
+#define ARM_INIT_CONFIGURATION   0
 
 // ARM performance counter ID to use
 #define counter_id_0 0x0
@@ -269,7 +269,7 @@ int main(void)
 void configure_AXI(unsigned priority){
 
     const unsigned BUS_ADDRESS = 0x1000000;
-    unsigned* bus_PRI = BUS_ADDRESS + 0x20;
+    unsigned* bus_PRI = (unsigned*)BUS_ADDRESS + 0x20;
 
 //    printf("Register bus_PRI = %X \n", *bus_PRI);
     *bus_PRI = priority;
@@ -357,7 +357,7 @@ volatile void critical_task_start_eval(){
 
 }
 
-/* critical_task_start_eval
+/* critical_task_end_eval
  *
  * Description: Deactivates all performance counters at once and reads the event values for each of them
  *
@@ -441,12 +441,12 @@ void ARM_init(unsigned tlb1_pos){
 
     // Set pages for the DDR Memory as cacheable
     for(int cnt = 2048; cnt < 4091; cnt++){
-        reg = tlb1_pos + (cnt<<2);
+        reg = (unsigned*)(tlb1_pos + (cnt<<2));
         *reg = 0x015DE6|(cnt<<20);
     }
     // Set pages for the lower PA addresses as non-cacheable
     for(int cnt = 0; cnt < 2048; cnt++){
-        reg = tlb1_pos + (cnt<<2);
+        reg = (unsigned*)(tlb1_pos + (cnt<<2));
         *reg = 0x010DE2|(cnt<<20);
     }
 

@@ -4,7 +4,7 @@
  |  Description: This file provides functions for managing the
  |  EMIFs on Sitara AM5728
  |
- |  Version: 2V
+ |  Version: 2.1V
  *-----------------------------------------------------------------------*/
 
 #ifndef DDR3MEMORYCONTROLLER_H_
@@ -37,9 +37,9 @@
 unsigned get_PERF_CNT_1(unsigned emif_id){
     unsigned int* perf_cnt = NULL;
     if(emif_id == 0)
-        perf_cnt = DDR3A_EMIF1_CONFIGURATION + PERF_CNT_1_OFFSET;
+        perf_cnt = (unsigned*)(DDR3A_EMIF1_CONFIGURATION + PERF_CNT_1_OFFSET);
     else if(emif_id == 1)
-        perf_cnt = DDR3A_EMIF2_CONFIGURATION + PERF_CNT_1_OFFSET;
+        perf_cnt = (unsigned*)(DDR3A_EMIF2_CONFIGURATION + PERF_CNT_1_OFFSET);
 
     return *perf_cnt;
 }
@@ -57,9 +57,9 @@ unsigned get_PERF_CNT_1(unsigned emif_id){
 unsigned get_PERF_CNT_2(unsigned emif_id){
     unsigned int* perf_cnt = NULL;
     if (emif_id == 0)
-        perf_cnt = DDR3A_EMIF1_CONFIGURATION + PERF_CNT_2_OFFSET;
+        perf_cnt = (unsigned*)(DDR3A_EMIF1_CONFIGURATION + PERF_CNT_2_OFFSET);
     else if (emif_id == 1)
-        perf_cnt = DDR3A_EMIF2_CONFIGURATION + PERF_CNT_2_OFFSET;
+        perf_cnt = (unsigned*)(DDR3A_EMIF2_CONFIGURATION + PERF_CNT_2_OFFSET);
 
     return *perf_cnt;
 }
@@ -78,9 +78,9 @@ unsigned get_PERF_CNT_TIMER(unsigned emif_id){
     unsigned int* perf_cnt_timer = NULL;
 
     if (emif_id == 0)
-        perf_cnt_timer = DDR3A_EMIF1_CONFIGURATION + PERF_CNT_TIM_OFFSET;
+        perf_cnt_timer = (unsigned*)(DDR3A_EMIF1_CONFIGURATION + PERF_CNT_TIM_OFFSET);
     else if (emif_id == 1)
-        perf_cnt_timer = DDR3A_EMIF2_CONFIGURATION + PERF_CNT_TIM_OFFSET;
+        perf_cnt_timer = (unsigned*)(DDR3A_EMIF2_CONFIGURATION + PERF_CNT_TIM_OFFSET);
 
     return *perf_cnt_timer;
 }
@@ -110,9 +110,9 @@ void set_PERF_CNT_EVENT(unsigned id, unsigned event, unsigned emif_id){
     unsigned int* perf_cnt_cfg = NULL;
 
     if (emif_id == 0)
-        perf_cnt_cfg = DDR3A_EMIF1_CONFIGURATION + PERF_CNT_CFG_OFFSET;
+        perf_cnt_cfg = (unsigned*)(DDR3A_EMIF1_CONFIGURATION + PERF_CNT_CFG_OFFSET);
     else if (emif_id == 1)
-        perf_cnt_cfg = DDR3A_EMIF2_CONFIGURATION + PERF_CNT_CFG_OFFSET;
+        perf_cnt_cfg = (unsigned*)(DDR3A_EMIF2_CONFIGURATION + PERF_CNT_CFG_OFFSET);
 
     if(id == 0){
         *perf_cnt_cfg &= 0xFFFFFFF0; // Clear CNTR1_CFG bits
@@ -142,9 +142,9 @@ void enable_CNT_MSTID(unsigned id, unsigned emif_id){
     unsigned int* perf_cnt_cfg = NULL;
 
     if (emif_id == 0)
-        perf_cnt_cfg = DDR3A_EMIF1_CONFIGURATION + PERF_CNT_CFG_OFFSET;
+        perf_cnt_cfg = (unsigned*)(DDR3A_EMIF1_CONFIGURATION + PERF_CNT_CFG_OFFSET);
     else if (emif_id == 1)
-        perf_cnt_cfg = DDR3A_EMIF2_CONFIGURATION + PERF_CNT_CFG_OFFSET;
+        perf_cnt_cfg = (unsigned*)(DDR3A_EMIF2_CONFIGURATION + PERF_CNT_CFG_OFFSET);
 
     if(id == 0)
         *perf_cnt_cfg |= (1<<15); // Set CNTR1_CFG bits
@@ -178,9 +178,9 @@ void set_MSTID(unsigned id, unsigned master_id, unsigned emif_id){
     unsigned int* perf_cnt_sel = NULL;
 
     if (emif_id == 0)
-        perf_cnt_sel = DDR3A_EMIF1_CONFIGURATION + PERF_CNT_SEL_OFFSET;
+        perf_cnt_sel = (unsigned*)(DDR3A_EMIF1_CONFIGURATION + PERF_CNT_SEL_OFFSET);
     else if (emif_id == 1)
-        perf_cnt_sel = DDR3A_EMIF2_CONFIGURATION + PERF_CNT_SEL_OFFSET;
+        perf_cnt_sel = (unsigned*)(DDR3A_EMIF2_CONFIGURATION + PERF_CNT_SEL_OFFSET);
 
     if(id == 0)
         *perf_cnt_sel |= (master_id<<8); // Set MSTID1 bits
@@ -203,13 +203,13 @@ void set_MSTID(unsigned id, unsigned master_id, unsigned emif_id){
  * Returns:     Nothing
  *
  * */
-void set_DDR3A_SDCFG_IBANK(int banks_number, unsigned emif_id){
+void set_DDR3A_SDCFG_IBANK(unsigned banks_number, unsigned emif_id){
     unsigned int* sdcfg = NULL;
 
     if (emif_id == 0)
-        sdcfg = DDR3A_EMIF1_CONFIGURATION + SDCFG_OFFSET;
+        sdcfg = (unsigned*)(DDR3A_EMIF1_CONFIGURATION + SDCFG_OFFSET);
     else if (emif_id == 1)
-        sdcfg = DDR3A_EMIF2_CONFIGURATION + SDCFG_OFFSET;
+        sdcfg = (unsigned*)(DDR3A_EMIF2_CONFIGURATION + SDCFG_OFFSET);
 
     *sdcfg &= 0xFFFFFF9F; // Clear IBANK bits
     *sdcfg |= (banks_number<<5); // Set IBANK bits
@@ -231,9 +231,9 @@ unsigned get_DDR3A_SDCFG_IBANK(unsigned emif_id){
     unsigned int* sdcfg = NULL;
 
     if (emif_id == 0)
-        sdcfg = DDR3A_EMIF1_CONFIGURATION + SDCFG_OFFSET;
+        sdcfg = (unsigned*)(DDR3A_EMIF1_CONFIGURATION + SDCFG_OFFSET);
     else if (emif_id == 1)
-        sdcfg = DDR3A_EMIF2_CONFIGURATION + SDCFG_OFFSET;
+        sdcfg = (unsigned*)(DDR3A_EMIF2_CONFIGURATION + SDCFG_OFFSET);
 
     return *sdcfg & 0x060; // Clear all bits but IBANK bits
 }
@@ -253,9 +253,9 @@ unsigned get_DDR3A_SDCFG_PAGESIZE(unsigned emif_id){
     unsigned int* sdcfg = NULL;
 
     if (emif_id == 0)
-        sdcfg = DDR3A_EMIF1_CONFIGURATION + SDCFG_OFFSET;
+        sdcfg = (unsigned*)(DDR3A_EMIF1_CONFIGURATION + SDCFG_OFFSET);
     else if (emif_id == 1)
-        sdcfg = DDR3A_EMIF2_CONFIGURATION + SDCFG_OFFSET;
+        sdcfg = (unsigned*)(DDR3A_EMIF2_CONFIGURATION + SDCFG_OFFSET);
 
     return *sdcfg & 0x003; // Clear all bits but PAGESIZE bits
 }
@@ -273,13 +273,13 @@ unsigned get_DDR3A_SDCFG_PAGESIZE(unsigned emif_id){
  * Returns:     Nothing
  *
  * */
-void set_DDR3A_SDCFG_EBANK(int chips_number, unsigned emif_id){
+void set_DDR3A_SDCFG_EBANK(unsigned chips_number, unsigned emif_id){
     unsigned int* sdcfg = NULL;
 
     if (emif_id == 0)
-        sdcfg = DDR3A_EMIF1_CONFIGURATION + SDCFG_OFFSET;
+        sdcfg = (unsigned*)(DDR3A_EMIF1_CONFIGURATION + SDCFG_OFFSET);
     else if (emif_id == 1)
-        sdcfg = DDR3A_EMIF2_CONFIGURATION + SDCFG_OFFSET;
+        sdcfg = (unsigned*)(DDR3A_EMIF2_CONFIGURATION + SDCFG_OFFSET);
 
     *sdcfg &= 0xFFFFFFF7; // Clear EBANK bits
     *sdcfg |= (chips_number<<3); // Set EBANK bits
@@ -301,9 +301,9 @@ unsigned get_DDR3A_SDCFG_EBANK(unsigned emif_id){
     unsigned int* sdcfg = NULL;
 
     if (emif_id == 0)
-        sdcfg = DDR3A_EMIF1_CONFIGURATION + SDCFG_OFFSET;
+        sdcfg = (unsigned*)(DDR3A_EMIF1_CONFIGURATION + SDCFG_OFFSET);
     else if (emif_id == 1)
-        sdcfg = DDR3A_EMIF2_CONFIGURATION + SDCFG_OFFSET;
+        sdcfg = (unsigned*)(DDR3A_EMIF2_CONFIGURATION + SDCFG_OFFSET);
 
     return *sdcfg & 0x08; // Clear all bits but EBANK bits
 }
@@ -321,13 +321,13 @@ unsigned get_DDR3A_SDCFG_EBANK(unsigned emif_id){
  * Returns:     Nothing
  *
  * */
-void set_DDR3A_PR_OLD_COUNT(int count, unsigned emif_id){
+void set_DDR3A_PR_OLD_COUNT(unsigned count, unsigned emif_id){
     unsigned int* lat_config = NULL;
 
     if (emif_id == 0)
-        lat_config = DDR3A_EMIF1_CONFIGURATION + LAT_CONFIG_OFFSET;
+        lat_config = (unsigned*)(DDR3A_EMIF1_CONFIGURATION + LAT_CONFIG_OFFSET);
     else if (emif_id == 1)
-        lat_config = DDR3A_EMIF2_CONFIGURATION + LAT_CONFIG_OFFSET;
+        lat_config = (unsigned*)(DDR3A_EMIF2_CONFIGURATION + LAT_CONFIG_OFFSET);
 
     *lat_config &= 0xFFFFFF00; // Clear PR_OLD_COUNT bits
     *lat_config |= (count); // Set PR_OLD_COUNT bits
@@ -344,13 +344,13 @@ void set_DDR3A_PR_OLD_COUNT(int count, unsigned emif_id){
  * Returns:     Nothing
  *
  * */
-void set_DDR3A_READ_EXECUTION_THRESHOLD(int size, unsigned emif_id){
+void set_DDR3A_READ_EXECUTION_THRESHOLD(unsigned size, unsigned emif_id){
     unsigned int* rw_thresh = NULL;
 
     if (emif_id == 0)
-        rw_thresh = DDR3A_EMIF1_CONFIGURATION + RWTHRESH_OFFSET;
+        rw_thresh = (unsigned*)(DDR3A_EMIF1_CONFIGURATION + RWTHRESH_OFFSET);
     else if (emif_id == 1)
-        rw_thresh = DDR3A_EMIF2_CONFIGURATION + RWTHRESH_OFFSET;
+        rw_thresh = (unsigned*)(DDR3A_EMIF2_CONFIGURATION + RWTHRESH_OFFSET);
 
     *rw_thresh &= 0xFFFFFFD0; // Clear RD_THRESH bits
     *rw_thresh |= (size); // Set RD_THRESH bits
@@ -367,13 +367,13 @@ void set_DDR3A_READ_EXECUTION_THRESHOLD(int size, unsigned emif_id){
  * Returns:     Nothing
  *
  * */
-void set_DDR3A_WRITE_EXECUTION_THRESHOLD(int size, unsigned emif_id){
+void set_DDR3A_WRITE_EXECUTION_THRESHOLD(unsigned size, unsigned emif_id){
     unsigned int* rw_thresh = NULL;
 
     if (emif_id == 0)
-        rw_thresh = DDR3A_EMIF1_CONFIGURATION + RWTHRESH_OFFSET;
+        rw_thresh = (unsigned*)(DDR3A_EMIF1_CONFIGURATION + RWTHRESH_OFFSET);
     else if (emif_id == 1)
-        rw_thresh = DDR3A_EMIF2_CONFIGURATION + RWTHRESH_OFFSET;
+        rw_thresh = (unsigned*)(DDR3A_EMIF2_CONFIGURATION + RWTHRESH_OFFSET);
 
     *rw_thresh &= 0xFFFFD0FF; // Clear WR_THRESH bits
     *rw_thresh |= (size<<8); // Set WR_THRESH bits

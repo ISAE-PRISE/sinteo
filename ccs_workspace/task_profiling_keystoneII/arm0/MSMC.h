@@ -8,7 +8,7 @@
  |
  |  User Guide: https://www.ti.com/lit/ug/spruhj6/spruhj6.pdf?ts=1639478686458
  |
- |  Version: 1.0V
+ |  Version: 1.1V
  *-----------------------------------------------------------------------*/
 
 #define MSMC_BASE_ADDRESS     (0x000BC00000)
@@ -32,7 +32,7 @@
  *
  * */
 unsigned read_SBNDC(unsigned slave){
-    unsigned* address = MSMC_BASE_ADDRESS + SBNDC0_OFFSET + 0x04*slave;
+    unsigned* address = (unsigned*)(MSMC_BASE_ADDRESS + SBNDC0_OFFSET + 0x04*slave);
     return *address;
 }
 
@@ -50,8 +50,8 @@ unsigned read_SBNDC(unsigned slave){
  * Returns:     Nothing
  *
  * */
-void write_SBNDC(int slave, int value){
-    int* address = MSMC_BASE_ADDRESS + SBNDC0_OFFSET + 0x04*slave;
+void write_SBNDC(unsigned slave, unsigned value){
+    unsigned* address = (unsigned*)(MSMC_BASE_ADDRESS + SBNDC0_OFFSET + 0x04*slave);
     *address = value & SBNDC_MASK;
 }
 
@@ -92,7 +92,7 @@ void print_SBNDC_Registers(){
  *
  * */
 unsigned read_ARM_SBNDC(){
-    unsigned* address = MSMC_BASE_ADDRESS + ARM_SBNDC8_OFFSET; //SBNDC8 (offset 0xD0)
+    unsigned* address = (unsigned*)(MSMC_BASE_ADDRESS + ARM_SBNDC8_OFFSET); //SBNDC8 (offset 0xD0)
     return *address;
 }
 
@@ -115,7 +115,7 @@ unsigned read_ARM_SBNDC(){
  *
  * */
 void write_ARM_SBNDC(int value){
-    unsigned* address = MSMC_BASE_ADDRESS + ARM_SBNDC8_OFFSET;
+    unsigned* address = (unsigned*)(MSMC_BASE_ADDRESS + ARM_SBNDC8_OFFSET);
     *address = value & SBNDC_MASK;
 }
 
@@ -133,7 +133,7 @@ void write_ARM_SBNDC(int value){
 void print_ARM_SBNDC_list(int value){
     unsigned i = 0;
         for(i = 0; i < 5; i++){
-            unsigned* address = MSMC_BASE_ADDRESS + ARM_SBNDC8_OFFSET + 0x04*i;
+            unsigned* address = (unsigned*)(MSMC_BASE_ADDRESS + ARM_SBNDC8_OFFSET + 0x04*i);
             *address = value & SBNDC_MASK;
             printf("SBNDC8%d value is: %X \n", i, *address);
         }
