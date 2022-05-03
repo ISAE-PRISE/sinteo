@@ -19,8 +19,8 @@ Optimization of tasks interference on Heterogeneous Multi-core Platforms
 			       for tasks profiling on both cores, ARM Cortex A15 and DSP C66x 
 			       for Sitara AM5728 SoC (SoC used by BeagleBoard X15).
 "task_profiling_keystoneII/": This workspace contains the projects regarding the methods
-			     for tasks profiling on both cores, ARM Cortex A15 and DSP C66x
-			     for the Keystone II TCI6636K2H SoC.
+			       for tasks profiling on both cores, ARM Cortex A15 and DSP C66x
+			       for the Keystone II TCI6636K2H SoC.
 
 "xen_cobalt_task_profiling_sitaraAM5728/": This workspace contains a project regarding the tasks 
 				   	  profiling on the ARM Cortex A15 on Xenomai RTOS using the Cobalt POSIX 
@@ -38,7 +38,10 @@ Optimization of tasks interference on Heterogeneous Multi-core Platforms
 				          for Sitara AM5728 SoC (SoC used by BeagleBoard X15).
 				          Only User programing is carried out, hence, performance counters
 				          on ARM are not accessed.
-
+"DDR_SDRAM_cost_function_equation_development_for_heterogeneous_MPSoCs.pdf": Document explaining the creation of a cost function for 
+																			 estimating the SDRAM interference cost on a heterogeneous 
+																			 multicore platform. The SoC Keystone II is used for the
+																			 evaluation of the cost function.
 
 ### Software Requirements:
 
@@ -62,25 +65,31 @@ Optimization of tasks interference on Heterogeneous Multi-core Platforms
 
 ```
 root
-├── README.txt  -->  Important information to consider 
 │
 ├── ccs_workspace/  -->  Bare-metal TI Code Composer Studio workspaces required for profiling and testing  
-│   ├── task_profiling_sitaraAM5728/  -->  Sitara AM5728 profiling projects for ARM Cortex A15 and DSP C66x   
-│   └── task_profiling_keystoneII/  -->  Keystone II TCI6636K2H profiling projects for ARM Cortex A15 and DSP C66x   
+│   ├── task_profiling_keystoneII/  -->  Keystone II TCI6636K2H profiling projects for ARM Cortex A15 and DSP C66x 
+│   └── task_profiling_sitaraAM5728/  -->  Sitara AM5728 profiling projects for ARM Cortex A15 and DSP C66x   
 │
-├── xenomai_workspace/  -->  Code workspaces created for profiling and testing on Xenomai 3 
-│   ├── xen_cobalt_task_profiling_sitaraAM5728/  -->  Sitara AM5728 profiling project for ARM Cortex A15 using Cobalt POSIX implementation  
-│   ├── xen_module_cobalt_task_profiling_sitaraAM5728/  -->  Sitara AM5728 profiling project for ARM Cortex A15 using Cobalt POSIX implementation using PMCs
-│   └── xen_alchemy_task_profiling_sitaraAM5728/  -->  Sitara AM5728 profiling project for ARM Cortex A15 using the Alchemy API   
+│── doc/ --> Documents related to the SDRAM understanding and configuration are found here
+│   └── DDR_SDRAM_cost_function_equation_development_for_heterogeneous_MPSoCs/  -->  Development of the SDRAM interference cost function for task mapping
 │
-└── jupyter_notebook/  -->  Jupyter python notebooks code for task/memory mapping
-    ├── DDR_SDRAM_cost_function  -->  Tests the DDR3 SDRAM interference cost function
-    ├── task_memory_mapping_optimization_2D.ipynb  -->  Two objectives optimization
-    ├── task_memory_mapping_optimization_3D.ipynb  -->  Three objectives optimization
-    ├── FUN/  -->  CSV files with the selected cost functions outcome
-    ├── VAR/  -->  CSV files with the near-optimal task-core and core-bank mapping
-    ├── Graphs/  --> Contains the graphs depicting the two objectives optimization solutions
-    └── 3DGraphs/  --> Contains the graphs depicting the three objectives optimization solutions
+│── jupyter_notebook/  -->  Jupyter python notebooks code for task/memory mapping
+│   ├── 3DFUN/  -->  CSV files with the selected cost functions outcome for task_memory_mapping_optimization_3D
+│   ├── 3DGraphs/  --> Contains the graphs depicting the three objectives optimization solutions for task_memory_mapping_optimization_3D
+│   ├── 3DVAR/  -->  CSV files with the near-optimal task-core and core-bank mapping for task_memory_mapping_optimization_3D
+│   ├── FUN/  -->  CSV files with the selected cost functions outcome for task_memory_mapping_optimization_2D
+│   ├── Graphs/  --> Contains the graphs depicting the two objectives optimization solutions for task_memory_mapping_optimization_2D
+│   ├── VAR/  -->  CSV files with the near-optimal task-core and core-bank mapping for task_memory_mapping_optimization_2D
+│   ├── DDR_SDRAM_cost_function  -->  Tests the DDR3 SDRAM interference cost function
+│   ├── task_memory_mapping_optimization_2D.ipynb  -->  Two objectives optimization
+│   └── task_memory_mapping_optimization_3D.ipynb  -->  Three objectives optimization
+│
+│── xenomai_workspace/  -->  Code workspaces created for profiling and testing on Xenomai 3 
+│    ├── xen_alchemy_task_profiling_sitaraAM5728/  -->  Sitara AM5728 profiling project for ARM Cortex A15 using the Alchemy API   
+│    ├── xen_cobalt_task_profiling_sitaraAM5728/  -->  Sitara AM5728 profiling project for ARM Cortex A15 using Cobalt POSIX implementation  
+│    └── xen_module_cobalt_task_profiling_sitaraAM5728/  -->  Sitara AM5728 profiling project for ARM Cortex A15 using Cobalt POSIX implementation using PMCs
+│
+└── README.md  -->  Important information to consider 
 ```
 ## Authors
 
