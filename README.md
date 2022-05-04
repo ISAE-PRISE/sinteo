@@ -15,29 +15,30 @@ Optimization of tasks interference on Heterogeneous Multi-core Platforms
 "task_memory_mapping_optimization_3D.ipynb": Like "task_memory_mapping_optimization_2D.ipynb" but
 					     considering a third objective to optimize.
 
-"task_profiling_sitaraAM5728/": This workspace contains the projects regarding the methods
-			       for tasks profiling on both cores, ARM Cortex A15 and DSP C66x 
-			       for Sitara AM5728 SoC (SoC used by BeagleBoard X15).
+"task_profiling_sitaraAM5728/": This workspace contains the projects regarding the methods 
+						for tasks profiling on both cores, ARM Cortex A15 and DSP C66x 
+						for Sitara AM5728 SoC (SoC used by BeagleBoard X15).
 "task_profiling_keystoneII/": This workspace contains the projects regarding the methods
-			       for tasks profiling on both cores, ARM Cortex A15 and DSP C66x
-			       for the Keystone II TCI6636K2H SoC.
+						for tasks profiling on both cores, ARM Cortex A15 and DSP C66x
+						for the Keystone II TCI6636K2H SoC.
 
 "xen_cobalt_task_profiling_sitaraAM5728/": This workspace contains a project regarding the tasks 
-				   	  profiling on the ARM Cortex A15 on Xenomai RTOS using the Cobalt POSIX 
+						profiling on the ARM Cortex A15 on Xenomai RTOS using the Cobalt POSIX 
 				          implementation for Sitara AM5728 SoC (SoC used by BeagleBoard X15).
 				          Only User programing is carried out, hence, performance counters
 				          on ARM are not accessed.					     
 "xen_module_cobalt_task_profiling_sitaraAM5728/": This workspace contains a project regarding the tasks 
-				   	  profiling on the ARM Cortex A15 on Xenomai RTOS using the Cobalt POSIX 
+						profiling on the ARM Cortex A15 on Xenomai RTOS using the Cobalt POSIX 
 				          implementation for Sitara AM5728 SoC (SoC used by BeagleBoard X15).
 				          Unlike xen_cobalt_task_profiling_sitaraAM5728/ workspace, the performance 
 				          counters on the ARM cores are used. This is achieved through a Kernel module which
 						  enables the User mode access to the Performance Monitors Units. 
 "xen_alchemy_task_profiling_sitaraAM5728/": This workspace contains a project regarding the tasks 
-				   	  profiling on the ARM Cortex A15 on Xenomai RTOS using the Alchemy API 
+						profiling on the ARM Cortex A15 on Xenomai RTOS using the Alchemy API 
 				          for Sitara AM5728 SoC (SoC used by BeagleBoard X15).
 				          Only User programing is carried out, hence, performance counters
 				          on ARM are not accessed.
+						  
 "DDR_SDRAM_cost_function_equation_development_for_heterogeneous_MPSoCs.pdf": Document explaining the creation of a cost function for 
 																			 estimating the SDRAM interference cost on a heterogeneous 
 																			 multicore platform. The SoC Keystone II is used for the
