@@ -21,6 +21,9 @@ Optimization of tasks interference on Heterogeneous Multi-core Platforms
 "task_profiling_keystoneII/": This workspace contains the projects regarding the methods
 						for tasks profiling on both cores, ARM Cortex A15 and DSP C66x
 						for the Keystone II TCI6636K2H SoC.
+"task_periodic_profiling_keystoneII/": It is like "task_profiling_keystoneII" workspace but with a 
+						DDR SDRAM events periodic profiling. This is done using a new DSP which 
+						periodically captures the events data by configuring a timer and its interruptions.
 
 "xen_cobalt_task_profiling_sitaraAM5728/": This workspace contains a project regarding the tasks 
 						profiling on the ARM Cortex A15 on Xenomai RTOS using the Cobalt POSIX 
@@ -55,7 +58,7 @@ Optimization of tasks interference on Heterogeneous Multi-core Platforms
    See how to install at https://github.com/jMetal/jMetalPy
    (tested with version 1.5.5).
    
-3. Code Composer Studio (CCS TUDIO) IDE by Texas Instruments is required for 
+3. Code Composer Studio (CCS STUDIO) IDE by Texas Instruments is required for 
    opening the projects inside the workspace "ccs_workspace" (tested with CCS version 9.3.0).
    Download the Chip Support Libraries (CSL) during installation.
    
@@ -67,7 +70,8 @@ Optimization of tasks interference on Heterogeneous Multi-core Platforms
 ```
 root
 │
-├── ccs_workspace/  -->  Bare-metal TI Code Composer Studio workspaces required for profiling and testing  
+├── ccs_workspace/  -->  Bare-metal TI Code Composer Studio workspaces required for profiling and testing 
+│	├── task_periodic_profiling_keystoneII/  --> Keystone II TCI6636K2H periodic SDRAM profiling projects for ARM Cortex A15 and DSP C66x 
 │   ├── task_profiling_keystoneII/  -->  Keystone II TCI6636K2H profiling projects for ARM Cortex A15 and DSP C66x 
 │   └── task_profiling_sitaraAM5728/  -->  Sitara AM5728 profiling projects for ARM Cortex A15 and DSP C66x   
 │

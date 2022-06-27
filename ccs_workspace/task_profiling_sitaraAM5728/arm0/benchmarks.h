@@ -319,8 +319,9 @@ void cpu_microbenchmark_load(unsigned base_address){
  *
  * */
 void cpu_pointer_chasing_microbenchmark(unsigned iter_numb, unsigned stride, unsigned array_size){
-    unsigned int *a, *b, i;
-    unsigned int M[array_size];
+    volatile unsigned int *a, *b, i;
+    volatile unsigned int M[array_size];
+    a = (unsigned*)&M;
 
     for(i=0; i<array_size; i+=stride){
         if(i<array_size-stride)

@@ -12,299 +12,6 @@
 #define BENCHMARK_H_
 
 
-/* cpu_microbenchmark_store
- *
- * Description: Executes 128 store instructions aiming to a specific location
- *
- * Parameter:
- *              - unsigned base_address: Address to where stores are issued
- *              - unsigned value: Value to store
- *
- * Returns:     Nothing
- *
- * */
-void cpu_microbenchmark_store(unsigned address, unsigned value){
-
-    volatile unsigned* store = (unsigned*)address;
-
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-    *store = value;
-
-}
-
-
-/* cpu_microbenchmark_load
- *
- * Description: Executes 128 load instructions to retrieve a value from a specific location
- *
- * Parameter:
- *              - unsigned base_address: Address to where loads are issued
- *
- * Returns:     Nothing
- *
- * */
-void cpu_microbenchmark_load(unsigned address){
-
-    volatile unsigned* load = (unsigned*)address;
-    volatile unsigned temp = 0;
-
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-    temp = *load;
-
-}
-
 
 /* cpu_pointer_chasing_microbenchmark
  *
@@ -321,7 +28,8 @@ void cpu_microbenchmark_load(unsigned address){
  *
  * */
 void cpu_pointer_chasing_microbenchmark(unsigned iter_numb, unsigned stride, unsigned array_size, unsigned M[array_size]){
-    unsigned int *a, *b, i;
+    volatile unsigned int *a, *b, i;
+    a = (unsigned*)&M;
 
     for(i=0; i<array_size; i+=stride){
         if(i<array_size-stride)
@@ -488,6 +196,38 @@ unsigned matrix_stress2_task(unsigned size, int in0[size][size], int in1[size][s
            sum+=in1[i][j];
 
    return sum;
+}
+
+
+/* matrix_stress3_task
+ *
+ * Description: Task that makes use of matrices to create interference
+ *
+ * Parameter:
+ *              - unsigned size: Indicates the size of the matrices
+ *              - int in0[size][size]: First matrix
+ *              - int in1[size][size]: Second matrix
+ *
+ * Returns:     Nothing
+ *
+ * */
+void matrix_stress3_task(unsigned size, int in0[size][size], int in1[size][size]){
+
+volatile unsigned i = 0, j = 0;
+
+
+    for (i=0; i < size; i++)
+        for (j=0; j < size; j++)
+            in0[i][j]=i+j+1;
+
+    for (i=0; i < size; i++)
+        for (j=1; j < size-1; j++)
+            in1[i][j]=in0[i][j+1] + in0[i][j-1];
+
+    for (i=0; i<size; i++)
+        for (j=0; j < size; j++)
+            in1[i][j] = 2*in1[i][j] - in0[i][j];
+
 }
 
 

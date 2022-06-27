@@ -10,7 +10,7 @@
  |                for analyzing the effect of different
  |                benchmarks on the system.
  |
- |  Version: 1.0V
+ |  Version: 1.1V
  |
  | Contact:
  | alfonso.mascarenas-gonzalez@isae-supaero.fr
@@ -22,6 +22,7 @@
 
 
 /* ------------------------- FILE INCLUSION -------------------------- */
+
 #include <stdio.h>
 #include "benchmarks.h"
 #include "MMU.h"
@@ -30,7 +31,8 @@
 #include "DDR3MemoryController.h"
 
 
-/* ----------------------- LOCAL FUNCTIONS --------------------------- */
+/* ----------------------- GLOBAL FUNCTIONS --------------------------- */
+
 void ARM_disable_caches();
 void ARM_init(unsigned tlb1_pos);
 void counters_init();
@@ -39,13 +41,13 @@ void critical_task_end_eval();
 void DDR_configure_eval(unsigned filter_events);
 void DDR_start_eval();
 void DDR_end_eval();
-void configure_AXI(unsigned priority);
+void set_MPU_MA(unsigned priority);
 
 
-/* --------------- GLOBAL FUNCTION DEFINITIONS ----------------------- */
+/* --------------- GLOBAL VARIABLES DEFINITIONS ----------------------- */
 
 // Iteration number
-#define  MAX_ITERATIONS 1000
+#define  MAX_ITERATIONS 100
 // ARM configuration mode. 0 = only L1 instruction cache, 1 = all caches plus others (MMU, branch predictor...)
 #define ARM_INIT_CONFIGURATION   0
 
@@ -116,11 +118,27 @@ int main(void)
     else if(ARM_INIT_CONFIGURATION == 0)
         enable_caches(1,0);
 
-    // Set ARM AXI bus priority
-    configure_AXI(0x7);
-
     // Configure EMIF performance counters
     DDR_configure_eval(1);
+
+    // Configure the priority elevation counter value
+    set_DDR3A_PR_OLD_COUNT(0xFF, 0);
+    set_DDR3A_PR_OLD_COUNT(0xFF, 1);
+
+    // Set the System and MPU requests batches size
+    set_SYS_THRESH_MAX(0xA, 0);
+    set_SYS_THRESH_MAX(0xA, 1);
+    set_MPU_THRESH_MAX(0x5, 0);
+    set_MPU_THRESH_MAX(0x5, 1);
+
+    // Set the MPU (ARM cores) priority to the EMIFs
+    set_MPU_MA(0x4);
+
+    // Set write and read command batch size
+    set_DDR3A_READ_EXECUTION_THRESHOLD(5, 0);
+    set_DDR3A_WRITE_EXECUTION_THRESHOLD(3, 0);
+    set_DDR3A_READ_EXECUTION_THRESHOLD(5, 1);
+    set_DDR3A_WRITE_EXECUTION_THRESHOLD(3, 2);
 
     // Configure ARM Cortex A15 performance counters
     counters_init();
@@ -253,9 +271,9 @@ int main(void)
 }
 
 
-/* configure_AXI
+/* set_MPU_MA
  *
- * Description: Configures the AXI bus serving priority when different processing elements requests are being served
+ * Description: Sets the priority of the memory access from MPU_MA to EMIF.
  *
  *
  * Parameter:
@@ -264,14 +282,13 @@ int main(void)
  * Returns:     Nothing
  *
  * */
-void configure_AXI(unsigned priority){
+void set_MPU_MA(unsigned priority){
 
-    const unsigned BUS_ADDRESS = 0x1000000;
-    unsigned* bus_PRI = (unsigned*)BUS_ADDRESS + 0x20;
+    const unsigned MA_PRIORITY_BASE_ADDRESS = 0x482A2000;
+    unsigned* ma_priority = (unsigned*)MA_PRIORITY_BASE_ADDRESS;
 
-//    printf("Register bus_PRI = %X \n", *bus_PRI);
-    *bus_PRI = priority;
-//    printf("Register bus_PRI = %X \n", *bus_PRI);
+    *ma_priority &= 0xFFFFFFF8;
+    *ma_priority |= priority;
 
 }
 

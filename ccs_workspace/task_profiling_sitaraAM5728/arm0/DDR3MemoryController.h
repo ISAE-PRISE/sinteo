@@ -4,7 +4,7 @@
  |  Description: This file provides functions for managing the
  |  EMIFs on Sitara AM5728
  |
- |  Version: 2.1V
+ |  Version: 2.2V
  *-----------------------------------------------------------------------*/
 
 #ifndef DDR3MEMORYCONTROLLER_H_
@@ -14,7 +14,8 @@
 #define DDR3A_EMIF2_CONFIGURATION 0x4D000000
 
 #define SDCFG_OFFSET 0x008
-#define LAT_CONFIG_OFFSET 0x54
+#define EMIF_OCP_CONFIG_OFFSET 0x054
+#define EMIF_COS_CONFIG 0x124
 #define PERF_CNT_1_OFFSET 0x80
 #define PERF_CNT_2_OFFSET 0x84
 #define PERF_CNT_CFG_OFFSET 0x88
@@ -325,9 +326,9 @@ void set_DDR3A_PR_OLD_COUNT(unsigned count, unsigned emif_id){
     unsigned int* lat_config = NULL;
 
     if (emif_id == 0)
-        lat_config = (unsigned*)(DDR3A_EMIF1_CONFIGURATION + LAT_CONFIG_OFFSET);
+        lat_config = (unsigned*)(DDR3A_EMIF1_CONFIGURATION + EMIF_COS_CONFIG);
     else if (emif_id == 1)
-        lat_config = (unsigned*)(DDR3A_EMIF2_CONFIGURATION + LAT_CONFIG_OFFSET);
+        lat_config = (unsigned*)(DDR3A_EMIF2_CONFIGURATION + EMIF_COS_CONFIG);
 
     *lat_config &= 0xFFFFFF00; // Clear PR_OLD_COUNT bits
     *lat_config |= (count); // Set PR_OLD_COUNT bits
@@ -377,6 +378,59 @@ void set_DDR3A_WRITE_EXECUTION_THRESHOLD(unsigned size, unsigned emif_id){
 
     *rw_thresh &= 0xFFFFD0FF; // Clear WR_THRESH bits
     *rw_thresh |= (size<<8); // Set WR_THRESH bits
+}
+
+
+/* set_SYS_THRESH_MAX
+ *
+ * Description: Sets the maximum number of commands the system interface can consume in the command FIFO before switching to MPU requests.
+ *
+ * Reference: https://www.ti.com/lit/ug/spruhz6l/spruhz6l.pdf (Table 15.166)
+ *
+ * Parameter:
+ *              - unsigned thresh: It is the System OCP Threshold Maximum. A value of 0 is seen as a 1 by the EMIF.
+ *              - unsigned emif_id: Indicates the EMIF to use (0 or 1)
+ *
+ * Returns:     Nothing
+ *
+ * */
+void set_SYS_THRESH_MAX(unsigned thresh, unsigned emif_id){
+    unsigned int* OCP_config = NULL;
+
+    if (emif_id == 0)
+        OCP_config = (unsigned*)(DDR3A_EMIF1_CONFIGURATION + EMIF_OCP_CONFIG_OFFSET);
+    else if (emif_id == 1)
+        OCP_config = (unsigned*)(DDR3A_EMIF2_CONFIGURATION + EMIF_OCP_CONFIG_OFFSET);
+
+    *OCP_config &= 0xF0FFFFFF; // Clear set_SYS_THRESH_MAX bits
+    *OCP_config |= (thresh<<24); // Set set_SYS_THRESH_MAX bits
+}
+
+
+
+/* set_MPU_THRESH_MAX
+ *
+ * Description: Sets the maximum number of commands the MPU interface can consume in the command FIFO before switching to system requests.
+ *
+ * Reference: https://www.ti.com/lit/ug/spruhz6l/spruhz6l.pdf (Table 15.166)
+ *
+ * Parameter:
+ *              - unsigned thresh: It is the MPU Threshold Maximum. A value of 0 is seen as a 1 by the EMIF.
+ *              - unsigned emif_id: Indicates the EMIF to use (0 or 1)
+ *
+ * Returns:     Nothing
+ *
+ * */
+void set_MPU_THRESH_MAX(unsigned thresh, unsigned emif_id){
+    unsigned int* OCP_config = NULL;
+
+    if (emif_id == 0)
+        OCP_config = (unsigned*)(DDR3A_EMIF1_CONFIGURATION + EMIF_OCP_CONFIG_OFFSET);
+    else if (emif_id == 1)
+        OCP_config = (unsigned*)(DDR3A_EMIF2_CONFIGURATION + EMIF_OCP_CONFIG_OFFSET);
+
+    *OCP_config &= 0xFF0FFFFF; // Clear MPU_THRESH_MAX bits
+    *OCP_config |= (thresh<<20); // Set MPU_THRESH_MAX bits
 }
 
 #endif /* DDR3MEMORYCONTROLLER_H_ */

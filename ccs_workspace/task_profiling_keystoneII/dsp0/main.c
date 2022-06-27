@@ -50,7 +50,7 @@ void DDR_end_eval();
 
 
 // Iteration number
-#define  MAX_ITERATIONS 1000
+#define  MAX_ITERATIONS 100
 // DSP configuration mode. 0 = only L1 instruction cache, 1 = all caches
 #define DSP_INIT_CONFIGURATION   0
 

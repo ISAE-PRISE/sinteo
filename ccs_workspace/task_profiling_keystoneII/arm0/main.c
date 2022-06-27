@@ -46,7 +46,7 @@ void configure_AXI(unsigned priority);
 /* --------------- GLOBAL FUNCTION DEFINITIONS ----------------------- */
 
 // Iteration number
-#define  MAX_ITERATIONS 1000
+#define  MAX_ITERATIONS 100
 // ARM configuration mode. 0 = only L1 instruction cache, 1 = all caches plus others (MMU, branch predictor...)
 #define ARM_INIT_CONFIGURATION   0
 

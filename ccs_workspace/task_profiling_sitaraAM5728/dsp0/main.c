@@ -20,9 +20,9 @@
  | jean-loup.bussenot@onera.fr
  *-----------------------------------------------------------------------*/
 
+/* ------------------------- FILE INCLUSION -------------------------- */
 
 // CSL libraries
-#include <benchmark.h>
 #include <ti/csl/soc/k2l/src/cslr_device.h>
 #include <ti/csl/csl.h>
 #include <ti/csl/csl_cache.h>
@@ -34,11 +34,14 @@
 #include <stdio.h>
 #include <string.h>
 
+#include "benchmarks.h"
 #include "DSP_arbitration.h"
 #include "../arm0/DDR3MemoryController.h"
 #include "../arm0/UART.h"
 
-/* ----------------------- LOCAL FUNCTIONS --------------------------- */
+
+/* ----------------------- GLOBAL FUNCTIONS --------------------------- */
+
 void DSP_init();
 void slaves_configuration();
 void critical_task_start_eval();
@@ -48,8 +51,10 @@ void DDR_start_eval();
 void DDR_end_eval();
 
 
+/* --------------- GLOBAL VARIABLES DEFINITIONS ----------------------- */
+
 // Iteration number
-#define  MAX_ITERATIONS 1000
+#define  MAX_ITERATIONS 100
 // DSP configuration mode. 0 = only L1 instruction cache, 1 = all caches
 #define DSP_INIT_CONFIGURATION   0
 

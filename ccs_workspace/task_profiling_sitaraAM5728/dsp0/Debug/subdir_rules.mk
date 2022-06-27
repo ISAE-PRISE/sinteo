@@ -8,7 +8,7 @@ SHELL = cmd.exe
 %.obj: ../%.c $(GEN_OPTS) | $(GEN_FILES) $(GEN_MISC_FILES)
 	@echo 'Building file: "$<"'
 	@echo 'Invoking: C6000 Compiler'
-	"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-c6000_8.3.5/bin/cl6x" -mv6500 -O1 --opt_for_speed=4 --include_path="C:/ti/pdk_c667x_2_0_15/packages" --include_path="C:/Users/alfon/OneDrive/Documentos/ONERA_Work/workspace_CCS_task_profiling_sitaraAM5728/dsp0" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-c6000_8.3.5/include" --define=am5728 --define=core1 -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="$(basename $(<F)).d_raw" $(GEN_OPTS__FLAG) "$<"
+	"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-c6000_8.3.5/bin/cl6x" -mv6500 -O1 --opt_for_speed=4 --include_path="C:/ti/pdk_c667x_2_0_15/packages" --include_path="C:/Users/alfon/OneDrive/Desktop/ISAE-SUPAERO/GitHub/ccs_workspace/task_profiling_sitaraAM5728/dsp0" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-c6000_8.3.5/include" --define=am5728 --define=core1 -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="$(basename $(<F)).d_raw" $(GEN_OPTS__FLAG) "$<"
 	@echo 'Finished building: "$<"'
 	@echo ' '
 
