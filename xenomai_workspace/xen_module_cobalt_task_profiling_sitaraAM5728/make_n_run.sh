@@ -1,5 +1,5 @@
 # Insert module to allow accessing PMUs
-insmod ./module/user_enable_pmu.ko 
+#insmod ./module/user_enable_pmu.ko 
 
 # Clean and compile
 make -f make_v2 clean
@@ -14,7 +14,8 @@ echo $$ > /sys/fs/cgroup/cpu/tasks
 # Uncomment if you are not in sudo mode  
 # sudo LD_LIBRARY_PATH=/usr/xenomai/lib/ ./main
 
+
 # Remove module to allow accessing PMUs
-rmmod ./module/user_enable_pmu.ko
+#rmmod ./module/user_enable_pmu.ko
 
 exit

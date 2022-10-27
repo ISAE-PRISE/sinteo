@@ -4,7 +4,7 @@
  |  Description: The functions declaration for Sitara AM5728 emif management
  |               are done here
  |
- |  Version: 1V
+ |  Version: 1.1
  *-----------------------------------------------------------------------*/
 
 
@@ -15,15 +15,13 @@
  *
  * Parameter:
  *              - unsigned filter_events: Chooses whether to filter by master ID or to globally analyze the system
- *              - unsigned master0_id: Filter the events from the first EMIF performance counter from the point of view of this master
- *              - unsigned master0_id: Filter the events from the second EMIF performance counter from the point of view of this master
  *              - void* emif0_addr: Indicates the base address of the EMIF 0
  *              - void* emif1_addr: Indicates the base address of the EMIF 1
  *
  * Returns: Nothing
  *
  * */
-void DDR_configure_eval(unsigned filter_events, unsigned master0_id, unsigned master1_id, void* emif0_addr, void* emif1_addr);
+void DDR_configure_eval(unsigned filter_events, void* emif0_addr, void* emif1_addr);
 
 
 /* DDR_start_eval
@@ -42,7 +40,7 @@ void DDR_start_eval(void* emif0_addr, void* emif1_addr);
 
 /* DDR_end_eval
  *
- * Description: Reads both EMIFs performance counters a final time and calculates the final time.
+ * Description: Reads both EMIFs performance counters a last time and calculates the final time.
  *
  * Parameter:
  *              - void* emif0_addr: Indicates the base address of the EMIF 0
@@ -59,7 +57,7 @@ void DDR_end_eval(void* emif0_addr, void* emif1_addr);
  * Description: Prints the results for the chosen DDR SDRAM events
  *
  * Parameter:
- *		- unsigned id: the identification number for the printed result
+ *				- unsigned id: the identification number for the printed result
  *
  * Returns:     Nothing
  *

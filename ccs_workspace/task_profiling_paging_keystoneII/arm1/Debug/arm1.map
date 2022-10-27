@@ -1,0 +1,1322 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-exit.o)
+                              c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar/rdimon-crt0.o (exit)
+c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-impure.o)
+                              c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-exit.o) (_global_impure_ptr)
+c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-init.o)
+                              c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar/rdimon-crt0.o (__libc_init_array)
+c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-memset.o)
+                              c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar/rdimon-crt0.o (memset)
+c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-printf.o)
+                              ./main.o (printf)
+c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-vfprintf.o)
+                              c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-printf.o) (_vfprintf_r)
+c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-wsetup.o)
+                              c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-vfprintf.o) (__swsetup_r)
+c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-__call_atexit.o)
+                              c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-exit.o) (__call_exitprocs)
+c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-atexit.o)
+                              c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-__call_atexit.o) (atexit)
+c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-dtoa.o)
+                              c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-vfprintf.o) (_dtoa_r)
+c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-fflush.o)
+                              c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-vfprintf.o) (_fflush_r)
+c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-findfp.o)
+                              c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-vfprintf.o) (__sinit)
+c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-fini.o)
+                              c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-__call_atexit.o) (__libc_fini_array)
+c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-freer.o)
+                              c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-wsetup.o) (_free_r)
+c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-fwalk.o)
+                              c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-findfp.o) (_fwalk)
+c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-localeconv.o)
+                              c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-vfprintf.o) (_localeconv_r)
+c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-lock.o)
+                              c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-vfprintf.o) (__retarget_lock_init_recursive)
+c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-makebuf.o)
+                              c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-wsetup.o) (__smakebuf_r)
+c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-mallocr.o)
+                              c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-findfp.o) (_malloc_r)
+c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-memchr-stub.o)
+                              c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-vfprintf.o) (memchr)
+c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-memcpy.o)
+                              c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-dtoa.o) (memcpy)
+c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-mlock.o)
+                              c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-freer.o) (__malloc_lock)
+c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-mprec.o)
+                              c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-dtoa.o) (_Balloc)
+c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-sbrkr.o)
+                              c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-freer.o) (_sbrk_r)
+c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-stdio.o)
+                              c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-findfp.o) (__sread)
+c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-strlen-stub.o)
+                              c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-vfprintf.o) (strlen)
+c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-vfiprintf.o)
+                              c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-vfprintf.o) (__sprint_r)
+c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-writer.o)
+                              c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-stdio.o) (_write_r)
+c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-__atexit.o)
+                              c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-atexit.o) (__register_exitproc)
+c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-callocr.o)
+                              c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-mprec.o) (_calloc_r)
+c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-closer.o)
+                              c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-stdio.o) (_close_r)
+c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-fclose.o)
+                              c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-findfp.o) (_fclose_r)
+c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-fputwc.o)
+                              c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-vfiprintf.o) (_fputwc_r)
+c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-fstatr.o)
+                              c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-makebuf.o) (_fstat_r)
+c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-fvwrite.o)
+                              c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-vfiprintf.o) (__sfvwrite_r)
+c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-isattyr.o)
+                              c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-makebuf.o) (_isatty_r)
+c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-locale.o)
+                              c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-fputwc.o) (__locale_mb_cur_max)
+c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-lseekr.o)
+                              c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-stdio.o) (_lseek_r)
+c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-mbtowc_r.o)
+                              c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-locale.o) (__ascii_mbtowc)
+c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-memmove.o)
+                              c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-fvwrite.o) (memmove)
+c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-readr.o)
+                              c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-stdio.o) (_read_r)
+c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-reallocr.o)
+                              c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-fvwrite.o) (_realloc_r)
+c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-reent.o)
+                              c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-sbrkr.o) (errno)
+c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-strcmp.o)
+                              c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-locale.o) (strcmp)
+c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-wbuf.o)
+                              c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-fputwc.o) (__swbuf_r)
+c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-wcrtomb.o)
+                              c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-fputwc.o) (_wcrtomb_r)
+c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-wctomb_r.o)
+                              c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-locale.o) (__ascii_wctomb)
+c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-ctype_.o)
+                              c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-locale.o) (_ctype_)
+c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar\libgcc.a(_udivsi3.o)
+                              c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-dtoa.o) (__aeabi_uidiv)
+c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar\libgcc.a(_divsi3.o)
+                              c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-fvwrite.o) (__aeabi_idiv)
+c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar\libgcc.a(_dvmd_tls.o)
+                              c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar\libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar\libgcc.a(_arm_addsubdf3.o)
+                              c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-dtoa.o) (__aeabi_dsub)
+c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar\libgcc.a(_arm_muldivdf3.o)
+                              c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-dtoa.o) (__aeabi_dmul)
+c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar\libgcc.a(_arm_cmpdf2.o)
+                              c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-vfprintf.o) (__aeabi_dcmpeq)
+c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar\libgcc.a(_arm_unorddf2.o)
+                              c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-vfprintf.o) (__aeabi_dcmpun)
+c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar\libgcc.a(_arm_fixdfsi.o)
+                              c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-dtoa.o) (__aeabi_d2iz)
+c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar\libgcc.a(_aeabi_uldivmod.o)
+                              c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-vfprintf.o) (__aeabi_uldivmod)
+c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar\libgcc.a(_udivmoddi4.o)
+                              c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar\libgcc.a(_aeabi_uldivmod.o) (__udivmoddi4)
+c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\librdimon.a(rdimon-syscalls.o)
+                              c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-readr.o) (_read)
+c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\librdimon.a(rdimon-_exit.o)
+                              c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-exit.o) (_exit)
+c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\librdimon.a(rdimon-_kill.o)
+                              c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\librdimon.a(rdimon-_exit.o) (_kill)
+c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-errno.o)
+                              c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\librdimon.a(rdimon-syscalls.o) (__errno)
+
+Allocating common symbols
+Common symbol       size              file
+
+__lock___atexit_recursive_mutex
+                    0x1               c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-lock.o)
+__lock___arc4random_mutex
+                    0x1               c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-lock.o)
+errno               0x4               c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-reent.o)
+__lock___env_recursive_mutex
+                    0x1               c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-lock.o)
+__lock___sinit_recursive_mutex
+                    0x1               c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-lock.o)
+__lock___malloc_recursive_mutex
+                    0x1               c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-lock.o)
+__lock___at_quick_exit_mutex
+                    0x1               c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-lock.o)
+__lock___dd_hash_mutex
+                    0x1               c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-lock.o)
+__lock___tz_mutex   0x1               c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-lock.o)
+__lock___sfp_recursive_mutex
+                    0x1               c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-lock.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+MSMC_SRAM        0x0c000000         0x00600000
+DDR0_PARTITIONED_STACK 0x80004000         0x0fff8000
+DDR0             0xd0000000         0x08000000
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar/crti.o
+LOAD c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar/crtbegin.o
+LOAD c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar/rdimon-crt0.o
+                0x0fff8000                STACKSIZE = 0xfff8000
+                0x00000400                HEAPSIZE = 0x400
+LOAD ./main.o
+LOAD ./startup_ARMCA15.o
+
+.rsthand        0xd0000000       0x7c
+                0xd0000000                . = ALIGN (0x10000)
+ *(.isr_vector)
+ .isr_vector    0xd0000000       0x5c ./startup_ARMCA15.o
+                0xd0000000                __isr_vector
+                0xd0000058                DEF_IRQHandler
+ *startup_ARMCA15.o(.text)
+ .text          0xd000005c       0x20 ./startup_ARMCA15.o
+                0xd000005c                Entry
+                0xd000007c                . = ALIGN (0x4)
+
+.text           0xd0000080     0x8e40
+ *(.text*)
+ .text          0xd0000080        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar/crti.o
+ .text          0xd0000080       0x50 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar/crtbegin.o
+ .text          0xd00000d0       0xe8 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar/rdimon-crt0.o
+                0xd00000d0                _start
+                0xd00000d0                _mainCRTStartup
+ .text          0xd00001b8      0xe5c ./main.o
+                0xd00001b8                cpu_microbenchmark_store
+                0xd00003c4                cpu_microbenchmark_load
+                0xd00005cc                cpu_pointer_chasing_microbenchmark
+                0xd0000828                bank_stress_benchmark
+                0xd0000938                matrix_stress1_task
+                0xd0000a94                matrix_stress2_task
+                0xd0000bf4                read_SBNDC
+                0xd0000c08                write_SBNDC
+                0xd0000c24                print_SBNDC_Registers
+                0xd0000c68                read_ARM_SBNDC
+                0xd0000c74                write_ARM_SBNDC
+                0xd0000c88                print_ARM_SBNDC_list
+                0xd0000ce4                ARM_disable_caches
+                0xd0000e14                page_coloring
+                0xd0000f64                main
+ .text          0xd0001014        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-exit.o)
+ .text.exit     0xd0001014       0x20 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-exit.o)
+                0xd0001014                exit
+ .text          0xd0001034        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-impure.o)
+ .text          0xd0001034        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-init.o)
+ .text.__libc_init_array
+                0xd0001034       0x50 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-init.o)
+                0xd0001034                __libc_init_array
+ .text          0xd0001084        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-memset.o)
+ .text.memset   0xd0001084       0x98 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-memset.o)
+                0xd0001084                memset
+ .text          0xd000111c        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-printf.o)
+ .text._printf_r
+                0xd000111c       0x20 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-printf.o)
+                0xd000111c                _printf_r
+ .text.printf   0xd000113c       0x2c c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-printf.o)
+                0xd000113c                printf
+ .text          0xd0001168        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-vfprintf.o)
+ .text._vfprintf_r
+                0xd0001168     0x15e0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-vfprintf.o)
+                0xd0001168                _vfprintf_r
+ .text.vfprintf
+                0xd0002748       0x18 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-vfprintf.o)
+                0xd0002748                vfprintf
+ .text.__sbprintf
+                0xd0002760       0x88 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-vfprintf.o)
+ .text          0xd00027e8        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-wsetup.o)
+ .text.__swsetup_r
+                0xd00027e8       0xc8 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-wsetup.o)
+                0xd00027e8                __swsetup_r
+ .text          0xd00028b0        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-__call_atexit.o)
+ .text.startup.register_fini
+                0xd00028b0       0x18 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-__call_atexit.o)
+ .text.__call_exitprocs
+                0xd00028c8       0xf8 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-__call_atexit.o)
+                0xd00028c8                __call_exitprocs
+ .text          0xd00029c0        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-atexit.o)
+ .text.atexit   0xd00029c0        0xc c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-atexit.o)
+                0xd00029c0                atexit
+ .text          0xd00029cc        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-dtoa.o)
+ .text.quorem   0xd00029cc      0x140 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-dtoa.o)
+ *fill*         0xd0002b0c        0x4 
+ .text._dtoa_r  0xd0002b10      0xf14 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-dtoa.o)
+                0xd0002b10                _dtoa_r
+ .text          0xd0003a24        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-fflush.o)
+ .text.__sflush_r
+                0xd0003a24      0x158 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-fflush.o)
+                0xd0003a24                __sflush_r
+ .text._fflush_r
+                0xd0003b7c       0x5c c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-fflush.o)
+                0xd0003b7c                _fflush_r
+ .text.fflush   0xd0003bd8       0x28 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-fflush.o)
+                0xd0003bd8                fflush
+ .text          0xd0003c00        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-findfp.o)
+ .text.std      0xd0003c00       0x58 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-findfp.o)
+ .text._cleanup_r
+                0xd0003c58        0xc c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-findfp.o)
+                0xd0003c58                _cleanup_r
+ .text.__fp_lock
+                0xd0003c64       0x1c c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-findfp.o)
+ .text.__fp_unlock
+                0xd0003c80       0x1c c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-findfp.o)
+ .text.__sfmoreglue
+                0xd0003c9c       0x30 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-findfp.o)
+                0xd0003c9c                __sfmoreglue
+ .text._cleanup
+                0xd0003ccc       0x18 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-findfp.o)
+                0xd0003ccc                _cleanup
+ .text.__sinit  0xd0003ce4       0x70 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-findfp.o)
+                0xd0003ce4                __sinit
+ .text.__sfp    0xd0003d54       0xb4 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-findfp.o)
+                0xd0003d54                __sfp
+ .text.__sfp_lock_acquire
+                0xd0003e08        0xc c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-findfp.o)
+                0xd0003e08                __sfp_lock_acquire
+ .text.__sfp_lock_release
+                0xd0003e14        0xc c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-findfp.o)
+                0xd0003e14                __sfp_lock_release
+ .text.__sinit_lock_acquire
+                0xd0003e20        0xc c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-findfp.o)
+                0xd0003e20                __sinit_lock_acquire
+ .text.__sinit_lock_release
+                0xd0003e2c        0xc c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-findfp.o)
+                0xd0003e2c                __sinit_lock_release
+ .text.__fp_lock_all
+                0xd0003e38       0x28 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-findfp.o)
+                0xd0003e38                __fp_lock_all
+ .text.__fp_unlock_all
+                0xd0003e60       0x28 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-findfp.o)
+                0xd0003e60                __fp_unlock_all
+ .text          0xd0003e88        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-fini.o)
+ .text.__libc_fini_array
+                0xd0003e88       0x30 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-fini.o)
+                0xd0003e88                __libc_fini_array
+ .text          0xd0003eb8        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-freer.o)
+ .text._malloc_trim_r
+                0xd0003eb8       0xac c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-freer.o)
+                0xd0003eb8                _malloc_trim_r
+ .text._free_r  0xd0003f64      0x1ec c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-freer.o)
+                0xd0003f64                _free_r
+ .text          0xd0004150        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-fwalk.o)
+ .text._fwalk   0xd0004150       0x44 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-fwalk.o)
+                0xd0004150                _fwalk
+ .text._fwalk_reent
+                0xd0004194       0x4c c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-fwalk.o)
+                0xd0004194                _fwalk_reent
+ .text          0xd00041e0        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-localeconv.o)
+ .text.__localeconv_l
+                0xd00041e0        0x4 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-localeconv.o)
+                0xd00041e0                __localeconv_l
+ .text._localeconv_r
+                0xd00041e4       0x20 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-localeconv.o)
+                0xd00041e4                _localeconv_r
+ .text.localeconv
+                0xd0004204       0x20 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-localeconv.o)
+                0xd0004204                localeconv
+ .text          0xd0004224        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-lock.o)
+ .text.__retarget_lock_init
+                0xd0004224        0x4 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-lock.o)
+                0xd0004224                __retarget_lock_init
+ .text.__retarget_lock_init_recursive
+                0xd0004228        0x4 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-lock.o)
+                0xd0004228                __retarget_lock_init_recursive
+ .text.__retarget_lock_close
+                0xd000422c        0x4 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-lock.o)
+                0xd000422c                __retarget_lock_close
+ .text.__retarget_lock_close_recursive
+                0xd0004230        0x4 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-lock.o)
+                0xd0004230                __retarget_lock_close_recursive
+ .text.__retarget_lock_acquire
+                0xd0004234        0x4 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-lock.o)
+                0xd0004234                __retarget_lock_acquire
+ .text.__retarget_lock_acquire_recursive
+                0xd0004238        0x4 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-lock.o)
+                0xd0004238                __retarget_lock_acquire_recursive
+ .text.__retarget_lock_try_acquire
+                0xd000423c        0x4 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-lock.o)
+                0xd000423c                __retarget_lock_try_acquire
+ .text.__retarget_lock_try_acquire_recursive
+                0xd0004240        0x4 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-lock.o)
+                0xd0004240                __retarget_lock_try_acquire_recursive
+ .text.__retarget_lock_release
+                0xd0004244        0x4 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-lock.o)
+                0xd0004244                __retarget_lock_release
+ .text.__retarget_lock_release_recursive
+                0xd0004248        0x4 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-lock.o)
+                0xd0004248                __retarget_lock_release_recursive
+ .text          0xd000424c        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-makebuf.o)
+ .text.__swhatbuf_r
+                0xd000424c       0x5c c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-makebuf.o)
+                0xd000424c                __swhatbuf_r
+ .text.__smakebuf_r
+                0xd00042a8       0x9c c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-makebuf.o)
+                0xd00042a8                __smakebuf_r
+ .text          0xd0004344        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-mallocr.o)
+ .text._malloc_r
+                0xd0004344      0x580 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-mallocr.o)
+                0xd0004344                _malloc_r
+ .text          0xd00048c4        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-memchr-stub.o)
+ .text.memchr   0xd00048c4       0x8c c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-memchr-stub.o)
+                0xd00048c4                memchr
+ .text          0xd0004950       0xec c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-memcpy.o)
+                0xd0004950                memcpy
+ .text          0xd0004a3c        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-mlock.o)
+ .text.__malloc_lock
+                0xd0004a3c        0xc c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-mlock.o)
+                0xd0004a3c                __malloc_lock
+ .text.__malloc_unlock
+                0xd0004a48        0xc c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-mlock.o)
+                0xd0004a48                __malloc_unlock
+ .text          0xd0004a54        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-mprec.o)
+ .text._Balloc  0xd0004a54       0x4c c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-mprec.o)
+                0xd0004a54                _Balloc
+ .text._Bfree   0xd0004aa0       0x14 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-mprec.o)
+                0xd0004aa0                _Bfree
+ .text.__multadd
+                0xd0004ab4       0x88 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-mprec.o)
+                0xd0004ab4                __multadd
+ .text.__s2b    0xd0004b3c       0x98 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-mprec.o)
+                0xd0004b3c                __s2b
+ .text.__hi0bits
+                0xd0004bd4       0x3c c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-mprec.o)
+                0xd0004bd4                __hi0bits
+ .text.__lo0bits
+                0xd0004c10       0x5c c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-mprec.o)
+                0xd0004c10                __lo0bits
+ .text.__i2b    0xd0004c6c       0x14 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-mprec.o)
+                0xd0004c6c                __i2b
+ .text.__multiply
+                0xd0004c80      0x158 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-mprec.o)
+                0xd0004c80                __multiply
+ .text.__pow5mult
+                0xd0004dd8       0xa4 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-mprec.o)
+                0xd0004dd8                __pow5mult
+ .text.__lshift
+                0xd0004e7c       0xb8 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-mprec.o)
+                0xd0004e7c                __lshift
+ .text.__mcmp   0xd0004f34       0x38 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-mprec.o)
+                0xd0004f34                __mcmp
+ .text.__mdiff  0xd0004f6c      0x108 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-mprec.o)
+                0xd0004f6c                __mdiff
+ .text.__ulp    0xd0005074       0x44 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-mprec.o)
+                0xd0005074                __ulp
+ .text.__b2d    0xd00050b8       0xc0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-mprec.o)
+                0xd00050b8                __b2d
+ .text.__d2b    0xd0005178       0xac c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-mprec.o)
+                0xd0005178                __d2b
+ .text.__ratio  0xd0005224       0x68 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-mprec.o)
+                0xd0005224                __ratio
+ .text._mprec_log10
+                0xd000528c       0x38 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-mprec.o)
+                0xd000528c                _mprec_log10
+ .text.__copybits
+                0xd00052c4       0x48 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-mprec.o)
+                0xd00052c4                __copybits
+ .text.__any_on
+                0xd000530c       0x58 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-mprec.o)
+                0xd000530c                __any_on
+ .text          0xd0005364        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-sbrkr.o)
+ .text._sbrk_r  0xd0005364       0x28 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-sbrkr.o)
+                0xd0005364                _sbrk_r
+ .text          0xd000538c        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-stdio.o)
+ .text.__sread  0xd000538c       0x24 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-stdio.o)
+                0xd000538c                __sread
+ .text.__seofread
+                0xd00053b0        0x4 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-stdio.o)
+                0xd00053b0                __seofread
+ .text.__swrite
+                0xd00053b4       0x3c c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-stdio.o)
+                0xd00053b4                __swrite
+ .text.__sseek  0xd00053f0       0x20 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-stdio.o)
+                0xd00053f0                __sseek
+ .text.__sclose
+                0xd0005410        0x8 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-stdio.o)
+                0xd0005410                __sclose
+ .text          0xd0005418        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-strlen-stub.o)
+ .text.strlen   0xd0005418       0x5c c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-strlen-stub.o)
+                0xd0005418                strlen
+ .text          0xd0005474        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-vfiprintf.o)
+ .text.__sprint_r.part.0
+                0xd0005474       0x74 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-vfiprintf.o)
+ .text.__sprint_r
+                0xd00054e8       0x14 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-vfiprintf.o)
+                0xd00054e8                __sprint_r
+ .text._vfiprintf_r
+                0xd00054fc      0xcbc c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-vfiprintf.o)
+                0xd00054fc                _vfiprintf_r
+ .text.vfiprintf
+                0xd00061b8       0x18 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-vfiprintf.o)
+                0xd00061b8                vfiprintf
+ .text.__sbprintf
+                0xd00061d0       0x88 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-vfiprintf.o)
+ .text          0xd0006258        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-writer.o)
+ .text._write_r
+                0xd0006258       0x2c c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-writer.o)
+                0xd0006258                _write_r
+ .text          0xd0006284        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-__atexit.o)
+ .text.__register_exitproc
+                0xd0006284       0xd0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-__atexit.o)
+                0xd0006284                __register_exitproc
+ .text          0xd0006354        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-callocr.o)
+ .text._calloc_r
+                0xd0006354       0x60 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-callocr.o)
+                0xd0006354                _calloc_r
+ .text          0xd00063b4        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-closer.o)
+ .text._close_r
+                0xd00063b4       0x28 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-closer.o)
+                0xd00063b4                _close_r
+ .text          0xd00063dc        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-fclose.o)
+ .text._fclose_r
+                0xd00063dc       0xd0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-fclose.o)
+                0xd00063dc                _fclose_r
+ .text.fclose   0xd00064ac       0x10 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-fclose.o)
+                0xd00064ac                fclose
+ .text          0xd00064bc        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-fputwc.o)
+ .text.__fputwc
+                0xd00064bc       0xb0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-fputwc.o)
+                0xd00064bc                __fputwc
+ .text._fputwc_r
+                0xd000656c       0x68 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-fputwc.o)
+                0xd000656c                _fputwc_r
+ .text.fputwc   0xd00065d4       0x38 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-fputwc.o)
+                0xd00065d4                fputwc
+ .text          0xd000660c        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-fstatr.o)
+ .text._fstat_r
+                0xd000660c       0x2c c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-fstatr.o)
+                0xd000660c                _fstat_r
+ .text          0xd0006638        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-fvwrite.o)
+ .text.__sfvwrite_r
+                0xd0006638      0x320 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-fvwrite.o)
+                0xd0006638                __sfvwrite_r
+ .text          0xd0006958        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-isattyr.o)
+ .text._isatty_r
+                0xd0006958       0x28 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-isattyr.o)
+                0xd0006958                _isatty_r
+ .text          0xd0006980        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-locale.o)
+ .text._setlocale_r
+                0xd0006980       0x54 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-locale.o)
+                0xd0006980                _setlocale_r
+ .text.__locale_mb_cur_max
+                0xd00069d4       0x20 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-locale.o)
+                0xd00069d4                __locale_mb_cur_max
+ .text.__locale_ctype_ptr_l
+                0xd00069f4        0x8 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-locale.o)
+                0xd00069f4                __locale_ctype_ptr_l
+ .text.__locale_ctype_ptr
+                0xd00069fc       0x20 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-locale.o)
+                0xd00069fc                __locale_ctype_ptr
+ .text.setlocale
+                0xd0006a1c       0x14 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-locale.o)
+                0xd0006a1c                setlocale
+ .text          0xd0006a30        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-lseekr.o)
+ .text._lseek_r
+                0xd0006a30       0x2c c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-lseekr.o)
+                0xd0006a30                _lseek_r
+ .text          0xd0006a5c        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-mbtowc_r.o)
+ .text._mbtowc_r
+                0xd0006a5c       0x28 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-mbtowc_r.o)
+                0xd0006a5c                _mbtowc_r
+ .text.__ascii_mbtowc
+                0xd0006a84       0x24 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-mbtowc_r.o)
+                0xd0006a84                __ascii_mbtowc
+ .text          0xd0006aa8        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-memmove.o)
+ .text.memmove  0xd0006aa8       0xc8 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-memmove.o)
+                0xd0006aa8                memmove
+ .text          0xd0006b70        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-readr.o)
+ .text._read_r  0xd0006b70       0x2c c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-readr.o)
+                0xd0006b70                _read_r
+ .text          0xd0006b9c        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-reallocr.o)
+ .text._realloc_r
+                0xd0006b9c      0x35c c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-reallocr.o)
+                0xd0006b9c                _realloc_r
+ .text          0xd0006ef8        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-reent.o)
+ .text.cleanup_glue
+                0xd0006ef8       0x28 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-reent.o)
+                0xd0006ef8                cleanup_glue
+ .text._reclaim_reent
+                0xd0006f20       0x88 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-reent.o)
+                0xd0006f20                _reclaim_reent
+ .text          0xd0006fa8      0x1bc c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-strcmp.o)
+                0xd0006fa8                strcmp
+ .text          0xd0007164        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-wbuf.o)
+ .text.__swbuf_r
+                0xd0007164       0xac c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-wbuf.o)
+                0xd0007164                __swbuf_r
+ .text.__swbuf  0xd0007210       0x14 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-wbuf.o)
+                0xd0007210                __swbuf
+ .text          0xd0007224        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-wcrtomb.o)
+ .text._wcrtomb_r
+                0xd0007224       0x54 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-wcrtomb.o)
+                0xd0007224                _wcrtomb_r
+ .text.wcrtomb  0xd0007278       0x50 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-wcrtomb.o)
+                0xd0007278                wcrtomb
+ .text          0xd00072c8        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-wctomb_r.o)
+ .text._wctomb_r
+                0xd00072c8       0x28 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-wctomb_r.o)
+                0xd00072c8                _wctomb_r
+ .text.__ascii_wctomb
+                0xd00072f0       0x18 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-wctomb_r.o)
+                0xd00072f0                __ascii_wctomb
+ .text          0xd0007308        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-ctype_.o)
+ .text          0xd0007308      0x278 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar\libgcc.a(_udivsi3.o)
+                0xd0007308                __aeabi_uidiv
+                0xd0007308                __udivsi3
+                0xd0007564                __aeabi_uidivmod
+ .text          0xd0007580      0x2b0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar\libgcc.a(_divsi3.o)
+                0xd0007580                __divsi3
+                0xd0007580                __aeabi_idiv
+                0xd0007814                __aeabi_idivmod
+ .text          0xd0007830        0x4 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar\libgcc.a(_dvmd_tls.o)
+                0xd0007830                __aeabi_idiv0
+                0xd0007830                __aeabi_ldiv0
+ .text          0xd0007834      0x378 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar\libgcc.a(_arm_addsubdf3.o)
+                0xd0007834                __aeabi_drsub
+                0xd000783c                __aeabi_dsub
+                0xd000783c                __subdf3
+                0xd0007840                __aeabi_dadd
+                0xd0007840                __adddf3
+                0xd0007ab8                __floatunsidf
+                0xd0007ab8                __aeabi_ui2d
+                0xd0007ad8                __floatsidf
+                0xd0007ad8                __aeabi_i2d
+                0xd0007afc                __aeabi_f2d
+                0xd0007afc                __extendsfdf2
+                0xd0007b40                __floatundidf
+                0xd0007b40                __aeabi_ul2d
+                0xd0007b50                __floatdidf
+                0xd0007b50                __aeabi_l2d
+ .text          0xd0007bac      0x424 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar\libgcc.a(_arm_muldivdf3.o)
+                0xd0007bac                __aeabi_dmul
+                0xd0007bac                __muldf3
+                0xd0007e00                __divdf3
+                0xd0007e00                __aeabi_ddiv
+ .text          0xd0007fd0      0x110 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar\libgcc.a(_arm_cmpdf2.o)
+                0xd0007fd0                __gtdf2
+                0xd0007fd0                __gedf2
+                0xd0007fd8                __ltdf2
+                0xd0007fd8                __ledf2
+                0xd0007fe0                __nedf2
+                0xd0007fe0                __eqdf2
+                0xd0007fe0                __cmpdf2
+                0xd000805c                __aeabi_cdrcmple
+                0xd000806c                __aeabi_cdcmpeq
+                0xd000806c                __aeabi_cdcmple
+                0xd000807c                __aeabi_dcmpeq
+                0xd0008090                __aeabi_dcmplt
+                0xd00080a4                __aeabi_dcmple
+                0xd00080b8                __aeabi_dcmpge
+                0xd00080cc                __aeabi_dcmpgt
+ .text          0xd00080e0       0x2c c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar\libgcc.a(_arm_unorddf2.o)
+                0xd00080e0                __unorddf2
+                0xd00080e0                __aeabi_dcmpun
+ .text          0xd000810c       0x50 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar\libgcc.a(_arm_fixdfsi.o)
+                0xd000810c                __aeabi_d2iz
+                0xd000810c                __fixdfsi
+ .text          0xd000815c       0x30 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar\libgcc.a(_aeabi_uldivmod.o)
+                0xd000815c                __aeabi_uldivmod
+ .text          0xd000818c      0x144 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar\libgcc.a(_udivmoddi4.o)
+                0xd000818c                __udivmoddi4
+ .text          0xd00082d0        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\librdimon.a(rdimon-syscalls.o)
+ .text.findslot
+                0xd00082d0       0x38 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\librdimon.a(rdimon-syscalls.o)
+ .text.checkerror.part.0
+                0xd0008308       0x1c c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\librdimon.a(rdimon-syscalls.o)
+ .text._swiread
+                0xd0008324       0x2c c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\librdimon.a(rdimon-syscalls.o)
+                0xd0008324                _swiread
+ .text._read    0xd0008350       0x54 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\librdimon.a(rdimon-syscalls.o)
+                0xd0008350                _read
+ .text._swilseek
+                0xd00083a4       0xa8 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\librdimon.a(rdimon-syscalls.o)
+                0xd00083a4                _swilseek
+ .text._lseek   0xd000844c        0x4 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\librdimon.a(rdimon-syscalls.o)
+                0xd000844c                _lseek
+ .text._swiwrite
+                0xd0008450       0x2c c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\librdimon.a(rdimon-syscalls.o)
+                0xd0008450                _swiwrite
+ .text._write   0xd000847c       0x78 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\librdimon.a(rdimon-syscalls.o)
+                0xd000847c                _write
+ .text._swiclose
+                0xd00084f4       0x28 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\librdimon.a(rdimon-syscalls.o)
+                0xd00084f4                _swiclose
+ .text._close   0xd000851c       0x70 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\librdimon.a(rdimon-syscalls.o)
+                0xd000851c                _close
+ .text._getpid  0xd000858c        0x4 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\librdimon.a(rdimon-syscalls.o)
+                0xd000858c                _getpid
+ .text._sbrk    0xd0008590       0x54 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\librdimon.a(rdimon-syscalls.o)
+                0xd0008590                _sbrk
+ .text._swistat
+                0xd00085e4       0x4c c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\librdimon.a(rdimon-syscalls.o)
+                0xd00085e4                _swistat
+ .text._fstat   0xd0008630       0x1c c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\librdimon.a(rdimon-syscalls.o)
+                0xd0008630                _fstat
+ .text._stat    0xd000864c       0x3c c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\librdimon.a(rdimon-syscalls.o)
+                0xd000864c                _stat
+ .text._swiopen
+                0xd0008688       0xd8 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\librdimon.a(rdimon-syscalls.o)
+                0xd0008688                _swiopen
+ .text._open    0xd0008760       0x14 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\librdimon.a(rdimon-syscalls.o)
+                0xd0008760                _open
+ .text._get_semihosting_exts
+                0xd0008774       0xd4 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\librdimon.a(rdimon-syscalls.o)
+                0xd0008774                _get_semihosting_exts
+ .text.initialise_semihosting_exts
+                0xd0008848       0x40 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\librdimon.a(rdimon-syscalls.o)
+ .text._has_ext_exit_extended
+                0xd0008888       0x1c c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\librdimon.a(rdimon-syscalls.o)
+                0xd0008888                _has_ext_exit_extended
+ .text._has_ext_stdout_stderr
+                0xd00088a4       0x1c c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\librdimon.a(rdimon-syscalls.o)
+                0xd00088a4                _has_ext_stdout_stderr
+ .text.initialise_monitor_handles
+                0xd00088c0      0x118 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\librdimon.a(rdimon-syscalls.o)
+                0xd00088c0                initialise_monitor_handles
+ .text._link    0xd00089d8       0x10 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\librdimon.a(rdimon-syscalls.o)
+                0xd00089d8                _link
+ .text._unlink  0xd00089e8       0x3c c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\librdimon.a(rdimon-syscalls.o)
+                0xd00089e8                _unlink
+ .text._gettimeofday
+                0xd0008a24       0x2c c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\librdimon.a(rdimon-syscalls.o)
+                0xd0008a24                _gettimeofday
+ .text._clock   0xd0008a50       0x14 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\librdimon.a(rdimon-syscalls.o)
+                0xd0008a50                _clock
+ .text._times   0xd0008a64       0x20 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\librdimon.a(rdimon-syscalls.o)
+                0xd0008a64                _times
+ .text._isatty  0xd0008a84       0x3c c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\librdimon.a(rdimon-syscalls.o)
+                0xd0008a84                _isatty
+ .text._system  0xd0008ac0       0x44 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\librdimon.a(rdimon-syscalls.o)
+                0xd0008ac0                _system
+ .text._rename  0xd0008b04       0x3c c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\librdimon.a(rdimon-syscalls.o)
+                0xd0008b04                _rename
+ .text          0xd0008b40        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\librdimon.a(rdimon-_exit.o)
+ .text._exit    0xd0008b40        0x8 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\librdimon.a(rdimon-_exit.o)
+                0xd0008b40                _exit
+ .text          0xd0008b48        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\librdimon.a(rdimon-_kill.o)
+ .text._kill    0xd0008b48       0x34 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\librdimon.a(rdimon-_kill.o)
+                0xd0008b48                _kill
+ .text          0xd0008b7c        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-errno.o)
+ .text.__errno  0xd0008b7c        0xc c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-errno.o)
+                0xd0008b7c                __errno
+ .text          0xd0008b88        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar/crtend.o
+ .text          0xd0008b88        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar/crtn.o
+ *(.init)
+ .init          0xd0008b88        0x4 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar/crti.o
+                0xd0008b88                _init
+ .init          0xd0008b8c        0x8 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar/crtn.o
+ *(.fini)
+ .fini          0xd0008b94        0x4 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar/crti.o
+                0xd0008b94                _fini
+ .fini          0xd0008b98        0x8 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar/crtn.o
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+ *(.rodata*)
+ .rodata.str1.4
+                0xd0008ba0       0x30 ./main.o
+ .rodata._global_impure_ptr
+                0xd0008bd0        0x4 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-impure.o)
+                0xd0008bd0                _global_impure_ptr
+ .rodata._vfprintf_r.str1.4
+                0xd0008bd4       0x42 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-vfprintf.o)
+ *fill*         0xd0008c16        0x2 
+ .rodata.blanks.7291
+                0xd0008c18       0x10 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-vfprintf.o)
+ .rodata.zeroes.7292
+                0xd0008c28       0x10 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-vfprintf.o)
+ .rodata._dtoa_r.str1.4
+                0xd0008c38       0x10 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-dtoa.o)
+                                 0x12 (size before relaxing)
+ .rodata.__mprec_bigtens
+                0xd0008c48       0x28 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-mprec.o)
+                0xd0008c48                __mprec_bigtens
+ .rodata.__mprec_tens
+                0xd0008c70       0xc8 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-mprec.o)
+                0xd0008c70                __mprec_tens
+ .rodata.__mprec_tinytens
+                0xd0008d38       0x28 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-mprec.o)
+                0xd0008d38                __mprec_tinytens
+ .rodata.p05.6092
+                0xd0008d60        0xc c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-mprec.o)
+ .rodata._vfiprintf_r.str1.4
+                0xd0008d6c       0x2f c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-vfiprintf.o)
+ .rodata.blanks.7270
+                0xd0008d6c       0x10 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-vfiprintf.o)
+ .rodata.zeroes.7271
+                0xd0008d7c       0x10 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-vfiprintf.o)
+ .rodata._setlocale_r.str1.4
+                0xd0008d8c        0xa c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-locale.o)
+                                  0xd (size before relaxing)
+ *fill*         0xd0008d96        0x2 
+ .rodata.str1.4
+                0xd0008d98        0x2 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-locale.o)
+ *fill*         0xd0008d9a        0x2 
+ .rodata._ctype_
+                0xd0008d9c      0x101 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-ctype_.o)
+                0xd0008d9c                _ctype_
+ *fill*         0xd0008e9d        0x3 
+ .rodata._get_semihosting_exts.str1.4
+                0xd0008ea0       0x16 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\librdimon.a(rdimon-syscalls.o)
+ *fill*         0xd0008eb6        0x2 
+ .rodata.initialise_monitor_handles.str1.4
+                0xd0008eb8        0x4 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\librdimon.a(rdimon-syscalls.o)
+ *(.eh_frame*)
+ .eh_frame      0xd0008ebc        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar/crtbegin.o
+ .eh_frame      0xd0008ebc        0x4 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar/crtend.o
+
+.glue_7         0xd0008ec0        0x0
+ .glue_7        0xd0008ec0        0x0 linker stubs
+
+.glue_7t        0xd0008ec0        0x0
+ .glue_7t       0xd0008ec0        0x0 linker stubs
+
+.vfp11_veneer   0xd0008ec0        0x0
+ .vfp11_veneer  0xd0008ec0        0x0 linker stubs
+
+.v4_bx          0xd0008ec0        0x0
+ .v4_bx         0xd0008ec0        0x0 linker stubs
+
+.iplt           0xd0008ec0        0x0
+ .iplt          0xd0008ec0        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar/crtbegin.o
+
+.ARM.extab      0xd0008ec0        0x0
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+ .ARM.extab     0xd0008ec0        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar/rdimon-crt0.o
+ .ARM.extab     0xd0008ec0        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar\libgcc.a(_udivmoddi4.o)
+                0xd0008ec0                __exidx_start = .
+
+.ARM.exidx      0xd0008ec0        0x8
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+ .ARM.exidx     0xd0008ec0        0x8 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar/rdimon-crt0.o
+ .ARM.exidx     0xd0008ec8        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar\libgcc.a(_udivmoddi4.o)
+                                  0x8 (size before relaxing)
+                0xd0008ec8                __exidx_end = .
+
+.rel.dyn        0xd0008ec8        0x0
+ .rel.iplt      0xd0008ec8        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar/crtbegin.o
+
+.data           0xd0008ec8      0xae0
+                0xd0008ec8                . = ALIGN (0x4)
+                0xd0008ec8                __data_start__ = .
+ *(vtable)
+ *(.data*)
+ .data          0xd0008ec8        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar/crti.o
+ .data          0xd0008ec8        0x4 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar/crtbegin.o
+                0xd0008ec8                __dso_handle
+ .data          0xd0008ecc      0x118 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar/rdimon-crt0.o
+                0xd0008ed4                __stack_base__
+ .data          0xd0008fe4        0x0 ./main.o
+ .data          0xd0008fe4        0x0 ./startup_ARMCA15.o
+ .data          0xd0008fe4        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-exit.o)
+ .data          0xd0008fe4        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-impure.o)
+ .data._impure_ptr
+                0xd0008fe4        0x4 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-impure.o)
+                0xd0008fe4                _impure_ptr
+ .data.impure_data
+                0xd0008fe8      0x428 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-impure.o)
+ .data          0xd0009410        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-init.o)
+ .data          0xd0009410        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-memset.o)
+ .data          0xd0009410        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-printf.o)
+ .data          0xd0009410        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-vfprintf.o)
+ .data          0xd0009410        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-wsetup.o)
+ .data          0xd0009410        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-__call_atexit.o)
+ .data.__atexit_recursive_mutex
+                0xd0009410        0x4 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-__call_atexit.o)
+                0xd0009410                __atexit_recursive_mutex
+ .data          0xd0009414        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-atexit.o)
+ .data          0xd0009414        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-dtoa.o)
+ .data          0xd0009414        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-fflush.o)
+ .data          0xd0009414        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-findfp.o)
+ .data          0xd0009414        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-fini.o)
+ .data          0xd0009414        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-freer.o)
+ .data          0xd0009414        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-fwalk.o)
+ .data          0xd0009414        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-localeconv.o)
+ .data          0xd0009414        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-lock.o)
+ .data          0xd0009414        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-makebuf.o)
+ .data          0xd0009414        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-mallocr.o)
+ .data.__malloc_av_
+                0xd0009414      0x408 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-mallocr.o)
+                0xd0009414                __malloc_av_
+ .data.__malloc_sbrk_base
+                0xd000981c        0x4 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-mallocr.o)
+                0xd000981c                __malloc_sbrk_base
+ .data.__malloc_trim_threshold
+                0xd0009820        0x4 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-mallocr.o)
+                0xd0009820                __malloc_trim_threshold
+ .data          0xd0009824        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-memchr-stub.o)
+ .data          0xd0009824        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-memcpy.o)
+ .data          0xd0009824        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-mlock.o)
+ .data          0xd0009824        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-mprec.o)
+ .data          0xd0009824        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-sbrkr.o)
+ .data          0xd0009824        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-stdio.o)
+ .data          0xd0009824        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-strlen-stub.o)
+ .data          0xd0009824        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-vfiprintf.o)
+ .data          0xd0009824        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-writer.o)
+ .data          0xd0009824        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-__atexit.o)
+ .data          0xd0009824        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-callocr.o)
+ .data          0xd0009824        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-closer.o)
+ .data          0xd0009824        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-fclose.o)
+ .data          0xd0009824        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-fputwc.o)
+ .data          0xd0009824        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-fstatr.o)
+ .data          0xd0009824        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-fvwrite.o)
+ .data          0xd0009824        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-isattyr.o)
+ .data          0xd0009824        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-locale.o)
+ .data.__global_locale
+                0xd0009824      0x16c c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-locale.o)
+                0xd0009824                __global_locale
+ .data          0xd0009990        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-lseekr.o)
+ .data          0xd0009990        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-mbtowc_r.o)
+ .data          0xd0009990        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-memmove.o)
+ .data          0xd0009990        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-readr.o)
+ .data          0xd0009990        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-reallocr.o)
+ .data          0xd0009990        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-reent.o)
+ .data          0xd0009990        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-strcmp.o)
+ .data          0xd0009990        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-wbuf.o)
+ .data          0xd0009990        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-wcrtomb.o)
+ .data          0xd0009990        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-wctomb_r.o)
+ .data          0xd0009990        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-ctype_.o)
+ .data          0xd0009990        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar\libgcc.a(_udivsi3.o)
+ .data          0xd0009990        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar\libgcc.a(_divsi3.o)
+ .data          0xd0009990        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar\libgcc.a(_dvmd_tls.o)
+ .data          0xd0009990        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar\libgcc.a(_arm_addsubdf3.o)
+ .data          0xd0009990        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar\libgcc.a(_arm_muldivdf3.o)
+ .data          0xd0009990        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar\libgcc.a(_arm_cmpdf2.o)
+ .data          0xd0009990        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar\libgcc.a(_arm_unorddf2.o)
+ .data          0xd0009990        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar\libgcc.a(_arm_fixdfsi.o)
+ .data          0xd0009990        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar\libgcc.a(_aeabi_uldivmod.o)
+ .data          0xd0009990        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar\libgcc.a(_udivmoddi4.o)
+ .data          0xd0009990        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\librdimon.a(rdimon-syscalls.o)
+ .data.__heap_limit
+                0xd0009990        0x4 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\librdimon.a(rdimon-syscalls.o)
+                0xd0009990                __heap_limit
+ .data.supports_ext_exit_extended
+                0xd0009994        0x4 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\librdimon.a(rdimon-syscalls.o)
+ .data.supports_ext_stdout_stderr
+                0xd0009998        0x4 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\librdimon.a(rdimon-syscalls.o)
+ .data          0xd000999c        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\librdimon.a(rdimon-_exit.o)
+ .data          0xd000999c        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\librdimon.a(rdimon-_kill.o)
+ .data          0xd000999c        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-errno.o)
+ .data          0xd000999c        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar/crtend.o
+ .data          0xd000999c        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar/crtn.o
+                0xd000999c                . = ALIGN (0x4)
+                0xd000999c                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array)
+                0xd000999c                PROVIDE (__preinit_array_end, .)
+                0xd000999c                . = ALIGN (0x4)
+                0xd000999c                PROVIDE (__init_array_start, .)
+ *(SORT_BY_NAME(.init_array.*))
+ .init_array.00000
+                0xd000999c        0x4 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-__call_atexit.o)
+ *(.init_array)
+ .init_array    0xd00099a0        0x4 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar/crtbegin.o
+                0xd00099a4                PROVIDE (__init_array_end, .)
+                0xd00099a4                . = ALIGN (0x4)
+                0xd00099a4                PROVIDE (__fini_array_start, .)
+ *(SORT_BY_NAME(.fini_array.*))
+ *(.fini_array)
+ .fini_array    0xd00099a4        0x4 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar/crtbegin.o
+                0xd00099a8                PROVIDE (__fini_array_end, .)
+                0xd00099a8                . = ALIGN (0x4)
+                0xd00099a8                __data_end__ = .
+
+.igot.plt       0xd00099a8        0x0
+ .igot.plt      0xd00099a8        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar/crtbegin.o
+
+.bss            0xd00099a8      0x12c
+                0xd00099a8                . = ALIGN (0x4)
+                0xd00099a8                __bss_start__ = .
+ *(.bss*)
+ .bss           0xd00099a8        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar/crti.o
+ .bss           0xd00099a8       0x1c c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar/crtbegin.o
+ .bss           0xd00099c4        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar/rdimon-crt0.o
+ .bss           0xd00099c4        0x0 ./main.o
+ .bss           0xd00099c4        0x0 ./startup_ARMCA15.o
+ .bss           0xd00099c4        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-exit.o)
+ .bss           0xd00099c4        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-impure.o)
+ .bss           0xd00099c4        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-init.o)
+ .bss           0xd00099c4        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-memset.o)
+ .bss           0xd00099c4        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-printf.o)
+ .bss           0xd00099c4        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-vfprintf.o)
+ .bss           0xd00099c4        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-wsetup.o)
+ .bss           0xd00099c4        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-__call_atexit.o)
+ .bss           0xd00099c4        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-atexit.o)
+ .bss           0xd00099c4        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-dtoa.o)
+ .bss           0xd00099c4        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-fflush.o)
+ .bss           0xd00099c4        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-findfp.o)
+ .bss           0xd00099c4        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-fini.o)
+ .bss           0xd00099c4        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-freer.o)
+ .bss           0xd00099c4        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-fwalk.o)
+ .bss           0xd00099c4        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-localeconv.o)
+ .bss           0xd00099c4        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-lock.o)
+ .bss           0xd00099c4        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-makebuf.o)
+ .bss           0xd00099c4        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-mallocr.o)
+ .bss.__malloc_current_mallinfo
+                0xd00099c4       0x28 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-mallocr.o)
+                0xd00099c4                __malloc_current_mallinfo
+ .bss.__malloc_max_sbrked_mem
+                0xd00099ec        0x4 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-mallocr.o)
+                0xd00099ec                __malloc_max_sbrked_mem
+ .bss.__malloc_max_total_mem
+                0xd00099f0        0x4 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-mallocr.o)
+                0xd00099f0                __malloc_max_total_mem
+ .bss.__malloc_top_pad
+                0xd00099f4        0x4 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-mallocr.o)
+                0xd00099f4                __malloc_top_pad
+ .bss           0xd00099f8        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-memchr-stub.o)
+ .bss           0xd00099f8        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-memcpy.o)
+ .bss           0xd00099f8        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-mlock.o)
+ .bss           0xd00099f8        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-mprec.o)
+ .bss           0xd00099f8        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-sbrkr.o)
+ .bss           0xd00099f8        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-stdio.o)
+ .bss           0xd00099f8        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-strlen-stub.o)
+ .bss           0xd00099f8        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-vfiprintf.o)
+ .bss           0xd00099f8        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-writer.o)
+ .bss           0xd00099f8        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-__atexit.o)
+ .bss           0xd00099f8        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-callocr.o)
+ .bss           0xd00099f8        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-closer.o)
+ .bss           0xd00099f8        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-fclose.o)
+ .bss           0xd00099f8        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-fputwc.o)
+ .bss           0xd00099f8        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-fstatr.o)
+ .bss           0xd00099f8        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-fvwrite.o)
+ .bss           0xd00099f8        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-isattyr.o)
+ .bss           0xd00099f8        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-locale.o)
+ .bss._PathLocale
+                0xd00099f8        0x4 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-locale.o)
+                0xd00099f8                _PathLocale
+ .bss           0xd00099fc        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-lseekr.o)
+ .bss           0xd00099fc        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-mbtowc_r.o)
+ .bss           0xd00099fc        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-memmove.o)
+ .bss           0xd00099fc        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-readr.o)
+ .bss           0xd00099fc        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-reallocr.o)
+ .bss           0xd00099fc        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-reent.o)
+ .bss           0xd00099fc        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-strcmp.o)
+ .bss           0xd00099fc        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-wbuf.o)
+ .bss           0xd00099fc        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-wcrtomb.o)
+ .bss           0xd00099fc        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-wctomb_r.o)
+ .bss           0xd00099fc        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-ctype_.o)
+ .bss           0xd00099fc        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar\libgcc.a(_udivsi3.o)
+ .bss           0xd00099fc        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar\libgcc.a(_divsi3.o)
+ .bss           0xd00099fc        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar\libgcc.a(_dvmd_tls.o)
+ .bss           0xd00099fc        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar\libgcc.a(_arm_addsubdf3.o)
+ .bss           0xd00099fc        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar\libgcc.a(_arm_muldivdf3.o)
+ .bss           0xd00099fc        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar\libgcc.a(_arm_cmpdf2.o)
+ .bss           0xd00099fc        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar\libgcc.a(_arm_unorddf2.o)
+ .bss           0xd00099fc        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar\libgcc.a(_arm_fixdfsi.o)
+ .bss           0xd00099fc        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar\libgcc.a(_aeabi_uldivmod.o)
+ .bss           0xd00099fc        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar\libgcc.a(_udivmoddi4.o)
+ .bss           0xd00099fc        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\librdimon.a(rdimon-syscalls.o)
+ .bss.heap_end.6259
+                0xd00099fc        0x4 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\librdimon.a(rdimon-syscalls.o)
+ .bss.monitor_stderr
+                0xd0009a00        0x4 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\librdimon.a(rdimon-syscalls.o)
+ .bss.monitor_stdin
+                0xd0009a04        0x4 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\librdimon.a(rdimon-syscalls.o)
+ .bss.monitor_stdout
+                0xd0009a08        0x4 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\librdimon.a(rdimon-syscalls.o)
+ .bss.openfiles
+                0xd0009a0c       0xa0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\librdimon.a(rdimon-syscalls.o)
+ .bss           0xd0009aac        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\librdimon.a(rdimon-_exit.o)
+ .bss           0xd0009aac        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\librdimon.a(rdimon-_kill.o)
+ .bss           0xd0009aac        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-errno.o)
+ .bss           0xd0009aac        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar/crtend.o
+ .bss           0xd0009aac        0x0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar/crtn.o
+ *(COMMON)
+ COMMON         0xd0009aac       0x21 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-lock.o)
+                0xd0009aac                __lock___atexit_recursive_mutex
+                0xd0009ab0                __lock___arc4random_mutex
+                0xd0009ab4                __lock___env_recursive_mutex
+                0xd0009ab8                __lock___sinit_recursive_mutex
+                0xd0009abc                __lock___malloc_recursive_mutex
+                0xd0009ac0                __lock___at_quick_exit_mutex
+                0xd0009ac4                __lock___dd_hash_mutex
+                0xd0009ac8                __lock___tz_mutex
+                0xd0009acc                __lock___sfp_recursive_mutex
+ *fill*         0xd0009acd        0x3 
+ COMMON         0xd0009ad0        0x4 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-reent.o)
+                0xd0009ad0                errno
+                0xd0009ad4                __bss_end__ = .
+
+.heap           0xd0009ae0      0x400
+ FILL mask 0xdeadbeef
+                0xd0009ae0                . = ALIGN (0x4)
+                0xd0009ae0                __end__ = .
+                0xd0009ae0                end = __end__
+                0xd0009ae0                __HeapBase = __end__
+ *(.heap*)
+ .heap          0xd0009ae0        0x0 ./startup_ARMCA15.o
+                0xd0009ee0                . = (. + HEAPSIZE)
+ *fill*         0xd0009ae0      0x400 deadbeef
+                0xd0009ee0                __HeapLimit = .
+
+.stack          0x80004000  0xfff8000
+ FILL mask 0xbad0bad0
+                0x80004000                . = ALIGN (0x4)
+                0x80004000                __StackLimit = .
+ *(.stack*)
+ .stack         0x80004000        0x0 ./startup_ARMCA15.o
+                0x8fffc000                . = (. + STACKSIZE)
+ *fill*         0x80004000  0xfff8000 bad0bad0
+                0x8fffc000                __StackTop = .
+                0x8fffc000                __StackBase = .
+                0x8fffc000                PROVIDE (__stack, __StackTop)
+START GROUP
+LOAD c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a
+END GROUP
+START GROUP
+LOAD c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar\libgcc.a
+LOAD c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libg.a
+LOAD c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a
+END GROUP
+START GROUP
+LOAD c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar\libgcc.a
+LOAD c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a
+LOAD c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\librdimon.a
+END GROUP
+LOAD c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar/crtend.o
+LOAD c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar/crtn.o
+OUTPUT(arm1.out elf32-littlearm)
+
+.ARM.attributes
+                0x00000000       0x2f
+ .ARM.attributes
+                0x00000000       0x19 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar/crti.o
+ .ARM.attributes
+                0x00000019       0x29 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar/crtbegin.o
+ .ARM.attributes
+                0x00000042       0x17 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar/rdimon-crt0.o
+ .ARM.attributes
+                0x00000059       0x3c ./main.o
+ .ARM.attributes
+                0x00000095       0x2a ./startup_ARMCA15.o
+ .ARM.attributes
+                0x000000bf       0x29 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-exit.o)
+ .ARM.attributes
+                0x000000e8       0x29 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-impure.o)
+ .ARM.attributes
+                0x00000111       0x29 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-init.o)
+ .ARM.attributes
+                0x0000013a       0x29 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-memset.o)
+ .ARM.attributes
+                0x00000163       0x29 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-printf.o)
+ .ARM.attributes
+                0x0000018c       0x29 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-vfprintf.o)
+ .ARM.attributes
+                0x000001b5       0x29 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-wsetup.o)
+ .ARM.attributes
+                0x000001de       0x29 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-__call_atexit.o)
+ .ARM.attributes
+                0x00000207       0x29 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-atexit.o)
+ .ARM.attributes
+                0x00000230       0x29 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-dtoa.o)
+ .ARM.attributes
+                0x00000259       0x29 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-fflush.o)
+ .ARM.attributes
+                0x00000282       0x29 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-findfp.o)
+ .ARM.attributes
+                0x000002ab       0x29 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-fini.o)
+ .ARM.attributes
+                0x000002d4       0x29 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-freer.o)
+ .ARM.attributes
+                0x000002fd       0x29 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-fwalk.o)
+ .ARM.attributes
+                0x00000326       0x29 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-localeconv.o)
+ .ARM.attributes
+                0x0000034f       0x29 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-lock.o)
+ .ARM.attributes
+                0x00000378       0x29 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-makebuf.o)
+ .ARM.attributes
+                0x000003a1       0x29 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-mallocr.o)
+ .ARM.attributes
+                0x000003ca       0x29 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-memchr-stub.o)
+ .ARM.attributes
+                0x000003f3       0x17 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-memcpy.o)
+ .ARM.attributes
+                0x0000040a       0x29 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-mlock.o)
+ .ARM.attributes
+                0x00000433       0x29 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-mprec.o)
+ .ARM.attributes
+                0x0000045c       0x29 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-sbrkr.o)
+ .ARM.attributes
+                0x00000485       0x29 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-stdio.o)
+ .ARM.attributes
+                0x000004ae       0x29 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-strlen-stub.o)
+ .ARM.attributes
+                0x000004d7       0x29 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-vfiprintf.o)
+ .ARM.attributes
+                0x00000500       0x29 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-writer.o)
+ .ARM.attributes
+                0x00000529       0x29 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-__atexit.o)
+ .ARM.attributes
+                0x00000552       0x29 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-callocr.o)
+ .ARM.attributes
+                0x0000057b       0x29 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-closer.o)
+ .ARM.attributes
+                0x000005a4       0x29 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-fclose.o)
+ .ARM.attributes
+                0x000005cd       0x29 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-fputwc.o)
+ .ARM.attributes
+                0x000005f6       0x29 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-fstatr.o)
+ .ARM.attributes
+                0x0000061f       0x29 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-fvwrite.o)
+ .ARM.attributes
+                0x00000648       0x29 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-isattyr.o)
+ .ARM.attributes
+                0x00000671       0x29 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-locale.o)
+ .ARM.attributes
+                0x0000069a       0x29 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-lseekr.o)
+ .ARM.attributes
+                0x000006c3       0x29 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-mbtowc_r.o)
+ .ARM.attributes
+                0x000006ec       0x29 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-memmove.o)
+ .ARM.attributes
+                0x00000715       0x29 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-readr.o)
+ .ARM.attributes
+                0x0000073e       0x29 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-reallocr.o)
+ .ARM.attributes
+                0x00000767       0x29 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-reent.o)
+ .ARM.attributes
+                0x00000790       0x17 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-strcmp.o)
+ .ARM.attributes
+                0x000007a7       0x29 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-wbuf.o)
+ .ARM.attributes
+                0x000007d0       0x29 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-wcrtomb.o)
+ .ARM.attributes
+                0x000007f9       0x29 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-wctomb_r.o)
+ .ARM.attributes
+                0x00000822       0x29 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-ctype_.o)
+ .ARM.attributes
+                0x0000084b       0x19 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar\libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x00000864       0x19 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar\libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x0000087d       0x19 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar\libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x00000896       0x19 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar\libgcc.a(_arm_addsubdf3.o)
+ .ARM.attributes
+                0x000008af       0x19 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar\libgcc.a(_arm_muldivdf3.o)
+ .ARM.attributes
+                0x000008c8       0x19 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar\libgcc.a(_arm_cmpdf2.o)
+ .ARM.attributes
+                0x000008e1       0x19 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar\libgcc.a(_arm_unorddf2.o)
+ .ARM.attributes
+                0x000008fa       0x19 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar\libgcc.a(_arm_fixdfsi.o)
+ .ARM.attributes
+                0x00000913       0x19 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar\libgcc.a(_aeabi_uldivmod.o)
+ .ARM.attributes
+                0x0000092c       0x29 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar\libgcc.a(_udivmoddi4.o)
+ .ARM.attributes
+                0x00000955       0x29 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\librdimon.a(rdimon-syscalls.o)
+ .ARM.attributes
+                0x0000097e       0x29 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\librdimon.a(rdimon-_exit.o)
+ .ARM.attributes
+                0x000009a7       0x29 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\librdimon.a(rdimon-_kill.o)
+ .ARM.attributes
+                0x000009d0       0x29 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-errno.o)
+ .ARM.attributes
+                0x000009f9       0x29 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar/crtend.o
+ .ARM.attributes
+                0x00000a22       0x19 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar/crtn.o
+
+.comment        0x00000000       0x7e
+ .comment       0x00000000       0x7e ./main.o
+                                 0x7f (size before relaxing)
+
+.debug_info     0x00000000     0x137a
+ .debug_info    0x00000000     0x1358 ./main.o
+ .debug_info    0x00001358       0x22 ./startup_ARMCA15.o
+
+.debug_abbrev   0x00000000      0x469
+ .debug_abbrev  0x00000000      0x457 ./main.o
+ .debug_abbrev  0x00000457       0x12 ./startup_ARMCA15.o
+
+.debug_loc      0x00000000      0x7bf
+ .debug_loc     0x00000000      0x7bf ./main.o
+
+.debug_aranges  0x00000000       0x48
+ .debug_aranges
+                0x00000000       0x20 ./main.o
+ .debug_aranges
+                0x00000020       0x28 ./startup_ARMCA15.o
+
+.debug_ranges   0x00000000       0xf8
+ .debug_ranges  0x00000000       0xd8 ./main.o
+ .debug_ranges  0x000000d8       0x20 ./startup_ARMCA15.o
+
+.debug_line     0x00000000      0x477
+ .debug_line    0x00000000      0x405 ./main.o
+ .debug_line    0x00000405       0x72 ./startup_ARMCA15.o
+
+.debug_str      0x00000000      0x8f2
+ .debug_str     0x00000000      0x8ce ./main.o
+                                0x945 (size before relaxing)
+ .debug_str     0x000008ce       0x24 ./startup_ARMCA15.o
+                                 0x92 (size before relaxing)
+
+.debug_frame    0x00000000     0x1a10
+ .debug_frame   0x00000000      0x1e0 ./main.o
+ .debug_frame   0x000001e0       0x28 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-exit.o)
+ .debug_frame   0x00000208       0x2c c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-init.o)
+ .debug_frame   0x00000234       0x38 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-memset.o)
+ .debug_frame   0x0000026c       0x78 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-printf.o)
+ .debug_frame   0x000002e4       0x94 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-vfprintf.o)
+ .debug_frame   0x00000378       0x2c c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-wsetup.o)
+ .debug_frame   0x000003a4       0x5c c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-__call_atexit.o)
+ .debug_frame   0x00000400       0x20 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-atexit.o)
+ .debug_frame   0x00000420       0x7c c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-dtoa.o)
+ .debug_frame   0x0000049c       0x5c c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-fflush.o)
+ .debug_frame   0x000004f8      0x150 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-findfp.o)
+ .debug_frame   0x00000648       0x34 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-fini.o)
+ .debug_frame   0x0000067c       0x80 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-freer.o)
+ .debug_frame   0x000006fc       0x54 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-fwalk.o)
+ .debug_frame   0x00000750       0x40 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-localeconv.o)
+ .debug_frame   0x00000790       0xb0 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-lock.o)
+ .debug_frame   0x00000840       0x64 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-makebuf.o)
+ .debug_frame   0x000008a4       0x60 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-mallocr.o)
+ .debug_frame   0x00000904       0x34 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-memchr-stub.o)
+ .debug_frame   0x00000938       0x30 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-mlock.o)
+ .debug_frame   0x00000968      0x268 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-mprec.o)
+ .debug_frame   0x00000bd0       0x2c c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-sbrkr.o)
+ .debug_frame   0x00000bfc       0x88 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-stdio.o)
+ .debug_frame   0x00000c84       0x20 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-strlen-stub.o)
+ .debug_frame   0x00000ca4       0xdc c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-vfiprintf.o)
+ .debug_frame   0x00000d80       0x2c c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-writer.o)
+ .debug_frame   0x00000dac       0x34 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-__atexit.o)
+ .debug_frame   0x00000de0       0x28 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-callocr.o)
+ .debug_frame   0x00000e08       0x2c c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-closer.o)
+ .debug_frame   0x00000e34       0x3c c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-fclose.o)
+ .debug_frame   0x00000e70       0x9c c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-fputwc.o)
+ .debug_frame   0x00000f0c       0x2c c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-fstatr.o)
+ .debug_frame   0x00000f38       0x64 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-fvwrite.o)
+ .debug_frame   0x00000f9c       0x2c c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-isattyr.o)
+ .debug_frame   0x00000fc8       0x6c c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-locale.o)
+ .debug_frame   0x00001034       0x2c c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-lseekr.o)
+ .debug_frame   0x00001060       0x48 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-mbtowc_r.o)
+ .debug_frame   0x000010a8       0x40 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-memmove.o)
+ .debug_frame   0x000010e8       0x2c c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-readr.o)
+ .debug_frame   0x00001114       0x54 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-reallocr.o)
+ .debug_frame   0x00001168       0x68 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-reent.o)
+ .debug_frame   0x000011d0       0x34 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-strcmp.o)
+ .debug_frame   0x00001204       0x40 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-wbuf.o)
+ .debug_frame   0x00001244       0x5c c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-wcrtomb.o)
+ .debug_frame   0x000012a0       0x3c c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-wctomb_r.o)
+ .debug_frame   0x000012dc       0x20 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar\libgcc.a(_udivsi3.o)
+ .debug_frame   0x000012fc       0x20 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar\libgcc.a(_divsi3.o)
+ .debug_frame   0x0000131c       0xac c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar\libgcc.a(_arm_addsubdf3.o)
+ .debug_frame   0x000013c8       0x50 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar\libgcc.a(_arm_muldivdf3.o)
+ .debug_frame   0x00001418       0xc4 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar\libgcc.a(_arm_cmpdf2.o)
+ .debug_frame   0x000014dc       0x20 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar\libgcc.a(_arm_unorddf2.o)
+ .debug_frame   0x000014fc       0x24 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar\libgcc.a(_arm_fixdfsi.o)
+ .debug_frame   0x00001520       0x2c c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar\libgcc.a(_aeabi_uldivmod.o)
+ .debug_frame   0x0000154c       0x40 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-ar\libgcc.a(_udivmoddi4.o)
+ .debug_frame   0x0000158c      0x414 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\librdimon.a(rdimon-syscalls.o)
+ .debug_frame   0x000019a0       0x20 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\librdimon.a(rdimon-_exit.o)
+ .debug_frame   0x000019c0       0x30 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\librdimon.a(rdimon-_kill.o)
+ .debug_frame   0x000019f0       0x20 c:/ti/ccs930/ccs/tools/compiler/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-ar\libc.a(lib_a-errno.o)

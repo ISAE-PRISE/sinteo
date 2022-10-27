@@ -1,2 +1,2 @@
-/usr/xenomai/Projects/module_task_profiling_sitaraAM5728/module/user_enable_pmu.ko
-/usr/xenomai/Projects/module_task_profiling_sitaraAM5728/module/user_enable_pmu.o
+/usr/xenomai/Projects/cobalt_kernel_module/module/user_enable_pmu.ko
+/usr/xenomai/Projects/cobalt_kernel_module/module/user_enable_pmu.o

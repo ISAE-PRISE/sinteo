@@ -4,7 +4,7 @@
  |  Description: The functions declaration for the ARMv7 PMU management
  |               are done here
  |
- |  Version: 1V
+ |  Version: 1.0 
  *-----------------------------------------------------------------------*/
 
 

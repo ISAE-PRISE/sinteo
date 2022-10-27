@@ -4,11 +4,13 @@
  |  Description: The functions definition for the ARMv7 PMU management
  |               are done here
  |
- |  Version: 1V
+ |  Version: 1.1
  *-----------------------------------------------------------------------*/
 
 #include <stdio.h>
 #include "PMH.h"
+#include "arm_pmu_management.h"
+
 
 // ARM performance counter ID to use
 #define COUNTER_ID_0 0x0
@@ -51,12 +53,12 @@
 // ARM performance counter final read variables
 unsigned value0f = 0, value1f = 0, value2f = 0, value3f = 0, value4f = 0, value5f = 0, valueCf = 0;
 
-// Initializes the Armv7 performance counters with the events to track
+
 void counters_init(){
     // Select counter to program: counter_number can be between 0-5
     select_evt_counter(COUNTER_ID_0);
 
-    // Select event to track in selected counter: event_id numbers are in the A$
+    // Select event to track in selected counter: event_id numbers are in the ARM  TRM
     event_track(EVENT_ID_0);
 
     select_evt_counter(COUNTER_ID_1);
@@ -76,34 +78,32 @@ void counters_init(){
 
 }
 
-// Resets the performance counters and starts counting
+
 void critical_task_start_eval(){
 
     // Clear possible overflows of every counter
     clear_overflows();
 
     // Select counter to program: counter_number can be between 0-5
-    select_evt_counter(COUNTER_ID_0);
+//    select_evt_counter(COUNTER_ID_0);
 
-    // Reset the actual value and enables of the counter and don't enable the d$
+    // Reset the actual value and enables of the counter and don't enable the don't enable the divider
     reset_all_counters(0);
 
-    select_evt_counter(COUNTER_ID_1);
-    reset_all_counters(0);
+//    select_evt_counter(COUNTER_ID_1);
+//    reset_all_counters(0);
 
-    select_evt_counter(COUNTER_ID_2);
-    reset_all_counters(0);
+//    select_evt_counter(COUNTER_ID_2);
+//    reset_all_counters(0);
 
-    select_evt_counter(COUNTER_ID_3);
-    reset_all_counters(0);
+//    select_evt_counter(COUNTER_ID_3);
+//    reset_all_counters(0);
 
-    select_evt_counter(COUNTER_ID_4);
-    reset_all_counters(0);
+//    select_evt_counter(COUNTER_ID_4);
+//    reset_all_counters(0);
 
-    select_evt_counter(COUNTER_ID_5);
-    reset_all_counters(0);
-
-    reset_all_counters(0);
+//    select_evt_counter(COUNTER_ID_5);
+//    reset_all_counters(0);
 
     // Synchronize context (Instruction Synchronization Barrier)
     __asm__ __volatile("isb");
@@ -113,7 +113,7 @@ void critical_task_start_eval(){
 
 }
 
-// Stops the performance counters and retrieves the metrics 
+
 void critical_task_end_eval(){
 
     // Disable counters
@@ -145,7 +145,7 @@ void critical_task_end_eval(){
 
 }
 
-// Prints the metrics
+
 void print_pmu_results(unsigned id){
     printf("%u %u %u %u %u %u %u %u \n\r", id, valueCf, value0f, value1f, value2f, value3f, value4f, value5f);
 }

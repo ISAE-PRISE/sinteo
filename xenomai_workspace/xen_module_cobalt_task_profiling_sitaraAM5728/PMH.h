@@ -4,7 +4,7 @@
  |  Description: This file provides functions for managing the ARMv7 
  |               Performance Monitor Hardware
  |
- |  Version: 2V
+ |  Version: 2.0
  *-----------------------------------------------------------------------*/
 
 #define PMSELR_MASK 0xFFFFFFE0

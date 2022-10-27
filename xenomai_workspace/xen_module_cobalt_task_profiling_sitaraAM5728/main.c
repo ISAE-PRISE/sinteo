@@ -12,7 +12,7 @@
  |                enabling User mode access to the Performance Monitors
  |                is required. 
  |
- |  Version: 1.0V
+ |  Version: 1.1
  |
  | Contact:
  | alfonso.mascarenas-gonzalez@isae-supaero.fr
@@ -63,30 +63,14 @@ void *ptr_emifA, *ptr_emifB;
 pthread_t t0_id, t1_id;
 
 
+
 /* ----------------------- LOCAL FUNCTIONS DEFINITION ----------------- */
 
-/* thread0
- *
- * Description: Dummy periodic benchmark with metric measurement 
- *              capabililties
- *
- * Parameter:
- * 		- void* arg: General pointer
- *
- * Returns: Nothing
- *
- * */
 void *thread0(void *arg){
 
  struct periodic_info info;
  unsigned int i,j,temp = 0, ctr = 0;
  unsigned long accum;
-
- // Configure the EMIFs
- DDR_configure_eval(1, 0x0, 0x0, ptr_emifA, ptr_emifB);
-
- // Configure ARM Cortex A15 performance counters
- counters_init();
 
  make_periodic (T1, &info);
 
@@ -128,16 +112,7 @@ void *thread0(void *arg){
   return NULL;
 }
 
-/* thread1
- *
- * Description: Dummy periodic benchmark
- *
- * Parameter:
- * 		- void* arg: General pointer
- *
- * Returns: Nothing
- *
- * */
+
 void *thread1(void *arg){
 
  struct periodic_info info;
@@ -182,10 +157,10 @@ int main(int argc, char **argv){
   close(fd);
 
   // Configure the EMIFs
-//  DDR_configure_eval(1, 0x0, 0x0, ptr_emifA, ptr_emifB);
+  DDR_configure_eval(1, ptr_emifA, ptr_emifB); // 1 = Filter by master enabled
 
   // Configure ARM Cortex A15 performance counters
-//  counters_init();
+  counters_init();
 
   // set CPU affinity of task 1
   cpu_set_t t0_mask;

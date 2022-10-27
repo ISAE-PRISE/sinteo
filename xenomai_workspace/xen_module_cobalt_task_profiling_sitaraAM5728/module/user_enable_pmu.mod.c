@@ -18,11 +18,9 @@ static const struct modversion_info ____versions[]
 __used
 __attribute__((section("__versions"))) = {
 	{ 0x75cb89f3, __VMLINUX_SYMBOL_STR(module_layout) },
-	{ 0x2e5810c6, __VMLINUX_SYMBOL_STR(__aeabi_unwind_cpp_pr1) },
-	{ 0xd3f57a2, __VMLINUX_SYMBOL_STR(_find_next_bit_le) },
-	{ 0x7c62d042, __VMLINUX_SYMBOL_STR(cpu_possible_mask) },
+	{ 0x5541ea93, __VMLINUX_SYMBOL_STR(on_each_cpu) },
 	{ 0x27e1a049, __VMLINUX_SYMBOL_STR(printk) },
-	{ 0xfe7c4287, __VMLINUX_SYMBOL_STR(nr_cpu_ids) },
+	{ 0x2e5810c6, __VMLINUX_SYMBOL_STR(__aeabi_unwind_cpp_pr1) },
 	{ 0xb1ad28e0, __VMLINUX_SYMBOL_STR(__gnu_mcount_nc) },
 };
 

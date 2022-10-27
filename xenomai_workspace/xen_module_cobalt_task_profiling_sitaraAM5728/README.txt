@@ -5,7 +5,9 @@ How to run:
 export PATH=$PATH:/usr/xenomai/bin
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/xenomai/lib
 
+
 2. Execute "make_n_run.sh".
+
 
 
 Warning:
@@ -28,7 +30,7 @@ E4. When executing insmod, "disagrees about version of symbol module_layout" is 
 S4. Retrieve the hexadecimal value of the symbol "module_layout" from an already created Linux module
     via "modprobe --dump-modversions module_name.ko".
     Check the symbol module_layout value of your module. If they are different, replace yours with the
-    retrived symbol value through a hex editor, e.g., VIM. 
+    retrieved symbol value through a hex editor, e.g., VIM. 
 
 E5. Error when executing insmod or rmmod.
 S5. The module was already charged (insmod error) or the module does not exists (rmmod error).

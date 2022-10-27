@@ -6,7 +6,7 @@
  |  Source: Slightly modified from code at:  
  |          https://2net.co.uk/tutorial/periodic_threads#ref_1
  |
- |  Version: 1V
+ |  Version: 1.0
  *-----------------------------------------------------------------------*/
 
 
@@ -23,20 +23,6 @@ struct periodic_info{
 };
 
 
-
-/* make_periodic
- *
- * Description: Creates a timer with a specified period
- *
- * Parameter:
- * 		- unsigned int period: Execution period of the thread
- * 		- struct periodic_info *info: Structure containing the
- * 					 created timer file descriptor
- *
- * Returns:
- * 		- int ret: Success status (0 = success, -1 = error)
- *
- * */
 static int make_periodic(unsigned int period, struct periodic_info *info){
 	int ret;
 	unsigned int ns;
@@ -62,18 +48,6 @@ static int make_periodic(unsigned int period, struct periodic_info *info){
 	return ret;
 }
 
-
-/* wait_period
- *
- * Description: Makes the thread wait until it completes its period
- *
- * Parameter:
- * - struct periodic_info *info: Structure containing the
- * created timer file descriptor
- *
- * Returns: None
- *
- * */
 static void wait_period(struct periodic_info *info){
 	unsigned long long missed;
 	int ret;
